@@ -1,23 +1,25 @@
 /**
- * Created by stuartbourne on 2016-10-19.
+ * Transaction Type Enum.
  */
-public enum TransactionType
-{
+public enum TransactionType {
     CREATE("CR"),
     DELETE("DL"),
     DEPOSIT("DE"),
     TRANSFER("TR"),
     WITHDRAW("WD");
 
-    String transactionCode;
+    private String transactionCode;
 
-    TransactionType(String transactionCode)
-    {
+    TransactionType(String transactionCode) {
         this.transactionCode = transactionCode;
     }
 
-    public String getTransactionCode()
-    {
+    /**
+     * Returns the transaction code of the transaction type.
+     *
+     * @return transaction code string
+     */
+    public String getTransactionCode() {
         return transactionCode;
     }
 }

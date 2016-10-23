@@ -1,5 +1,3 @@
-import lombok.Data;
-
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
@@ -11,9 +9,8 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * Created by stuartbourne on 2016-10-19.
+ * Session Object for the SimBank banking system.
  */
-@Data
 public class Session {
 
     private SessionMode sessionMode;
@@ -40,10 +37,20 @@ public class Session {
         }
     }
 
+    /**
+     * Getter for session mode.
+     *
+     * @return session mode of the session.
+     */
     public SessionMode getSessionMode() {
         return sessionMode;
     }
 
+    /**
+     * Processes a transaction command provided to the function.
+     *
+     * @param input transaction to be processed.
+     */
     public void processTransaction(String input) {
         switch (input) {
             case "create": {
@@ -111,7 +118,14 @@ public class Session {
         }
     }
 
-    public static Session login(String file){
+    /**
+     * After prompting for a valid session mode, reads and loads valid account numbers from a text file.
+     * Returns a session using the session mode and valid account numbers.
+     *
+     * @param filename filename of the valid account numbers file to be read
+     * @return Session object.
+     */
+    public static Session login(String filename){
 
         SessionMode sessionMode = null;
         List<AccountNo> validAccountNoList = new ArrayList<>();
@@ -131,7 +145,7 @@ public class Session {
             }
         }
 
-        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
             String line;
             while ((line = br.readLine()) != null) {
                 try {
@@ -151,12 +165,14 @@ public class Session {
         return new Session(sessionMode, validAccountNoList);
     }
 
+    /**
+     * Outputs a transaction summary text file with a list of all transactions.
+     *
+     * @return true if the text file was generated successfully, false otherwise.
+     */
     public boolean logout() {
-        System.out.println(timestamp.toString());
-        return true;
-        /*
         try {
-            BufferedWriter writer = new BufferedWriter(new FileWriter(timestamp. + "_tsf.txt"));
+            BufferedWriter writer = new BufferedWriter(new FileWriter("/tsf/" + Long.toString(timestamp.getTime()) + "_tsf.txt"));
             for (Transaction transaction : transactions) {
                 writer.write(transaction.getTransactionSummaryEntry() + '\n');
             }
@@ -167,6 +183,5 @@ public class Session {
             e.printStackTrace();
             return false;
         }
-        */
     }
 }

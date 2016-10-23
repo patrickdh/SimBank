@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.jar.Pack200;
 
 /**
- * Created by stuartbourne on 2016-10-19.
+ * SimBank - The future of banking. Quality ensured!
  */
 public class Main
 {
@@ -26,6 +26,7 @@ public class Main
                 if (userInput.equals("logout")) {
                     session.logout();
                     session = null;
+                    System.out.println("Goodbye!");
                 } else {
                     session.processTransaction(userInput);
                 }

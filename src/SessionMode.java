@@ -1,8 +1,7 @@
 /**
- * Created by stuartbourne on 2016-10-19.
+ * Session Mode Enum.
  */
-public enum SessionMode
-{
+public enum SessionMode {
     ATM (100000, 100000),
     AGENT (99999999, 99999999);
 
