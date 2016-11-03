@@ -1,1 +1,0 @@
-You have successfully logged in. Please specify the type of session ('atm' or 'agent').You have successfully started a session in 'agent' mode.Please enter the account number you wish to deposit to.Please enter the amount to deposit in number of cents..Transaction failed: Invalid money amount - your despoit limit is $1000.00.You have successfully logged out.

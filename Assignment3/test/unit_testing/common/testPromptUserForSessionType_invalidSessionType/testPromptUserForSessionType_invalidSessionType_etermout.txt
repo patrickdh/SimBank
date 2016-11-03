@@ -1,1 +1,0 @@
-terminal output: "You must enter either 'atm' or 'agent' account type" -Note: this will be recursive until the user either enters the proper account type or logs out
