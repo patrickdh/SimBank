@@ -1,1 +1,2 @@
 loginatmTransfer1000032710000222500000logout
+exit

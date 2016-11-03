@@ -1,1 +1,3 @@
 loginatmwithdraw10000327-123112aababcabcda12ab121alogout
+exit
+exit

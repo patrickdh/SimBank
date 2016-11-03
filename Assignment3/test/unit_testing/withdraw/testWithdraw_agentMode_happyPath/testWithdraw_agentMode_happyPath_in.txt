@@ -1,1 +1,2 @@
 loginagent withdraw 10000327 50000 withdraw 10000327 50000000logout
+exit
