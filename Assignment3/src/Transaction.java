@@ -2,7 +2,8 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * Transaction object for the SimBank banking system.
+ * Transaction object for the SimBank banking system. This Transaction object
+ * will hold all the information regarding a specific transaction.
  */
 public class Transaction {
 
@@ -14,6 +15,15 @@ public class Transaction {
 
     private static Scanner sc = SimBank_UI.sc;
 
+    /**
+     * Private constructor - Transaction objects can only be created through static methods
+     *
+     * @param transactionType Type of Transaction
+     * @param recipientAccountNo Account number of the recipient
+     * @param senderAccountNo Account number of the sender
+     * @param accountName Account name of created or deleted user
+     * @param money Amount of money involved in the transaction
+     */
     private Transaction(TransactionType transactionType, AccountNo recipientAccountNo, AccountNo senderAccountNo, String
             accountName, int money) {
 
