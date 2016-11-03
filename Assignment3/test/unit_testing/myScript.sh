@@ -15,29 +15,23 @@ for parent in */ ; do
             output=$file
             input=${testingPath}${parent}${child}$file
             echo""
-            #echo "input: ${input}"
-            #echo""
         done
+        
         for file in *_vaf.txt ; do
             vaf=${testingPath}${parent}${child}$file
-            #echo "vaf: ${vaf}"
-            #echo""
         done
         tsf=${input%???????}
         tsf="${tsf}_tsf.txt"
-        #echo "tsf: ${tsf}"
-        #echo ""
         #cd to the executable directory, run the file then pipe the output to an output directory
         
         cd ${exePath}
-        output=${output%???????} output="${output}_generatedOut.txt"
+        output=${output%???????} output="${output}_expectedOut.txt"
         
         echo ${output}
         
-        java SimBank_UI $vaf $tsf $input >> "output"/$output
+        java SimBank_UI $vaf $tsf $input >> "${testingPath}"${parent}${child}/$output
         
         cd "${testingPath}/$parent"
     done
     cd ..
-    break
 done
