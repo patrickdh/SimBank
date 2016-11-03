@@ -1,0 +1,12 @@
+Welcome to SimBank! Please enter 'login' to use SimBank.
+Please enter 'atm' or 'agent'.
+Invalid session mode.
+Please enter 'atm' or 'agent'.
+Welcome to SimBank! Please enter 'login' to use SimBank.
+Please enter 'atm' or 'agent'.
+Invalid session mode.
+Please enter 'atm' or 'agent'.
+Welcome to SimBank! Please enter 'login' to use SimBank.
+Please enter 'atm' or 'agent'.
+Invalid session mode.
+Please enter 'atm' or 'agent'.

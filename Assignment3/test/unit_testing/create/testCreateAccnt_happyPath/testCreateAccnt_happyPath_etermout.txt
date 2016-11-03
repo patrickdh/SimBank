@@ -1,0 +1,1 @@
+You have successfully logged in. Please specify the type of session ('atm' or 'agent').You have successfully started a session in 'atm' mode.Please enter a valid account number of the new account.Please enter the account owner's name.You have successfully created the account.You have successfully logged out.

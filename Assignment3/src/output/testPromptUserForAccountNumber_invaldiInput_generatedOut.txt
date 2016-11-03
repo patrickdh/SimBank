@@ -1,0 +1,13 @@
+Welcome to SimBank! Please enter 'login' to use SimBank.
+Welcome to SimBank! Please enter 'login' to use SimBank.
+Please enter 'atm' or 'agent'.
+Invalid account number in Valid Accounts file. Shutting down.
+Welcome to SimBank! Please enter 'login' to use SimBank.
+Please enter 'atm' or 'agent'.
+Invalid account number in Valid Accounts file. Shutting down.
+Welcome to SimBank! Please enter 'login' to use SimBank.
+Please enter 'atm' or 'agent'.
+Invalid account number in Valid Accounts file. Shutting down.
+Welcome to SimBank! Please enter 'login' to use SimBank.
+Please enter 'atm' or 'agent'.
+Invalid account number in Valid Accounts file. Shutting down.

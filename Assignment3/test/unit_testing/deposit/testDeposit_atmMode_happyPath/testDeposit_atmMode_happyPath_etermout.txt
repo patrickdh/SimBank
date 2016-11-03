@@ -1,0 +1,1 @@
+You have successfully logged in. Please specify the type of session ('atm' or 'agent').You have successfully started a session in 'atm' mode.Please enter the account number you wish to deposit to.Please enter the amount to deposit in number of cents..Deposit successful.You have successfully logged out.

@@ -1,0 +1,1 @@
+You have successfully logged in. Please specify the type of session ('atm' or 'agent').You have successfully started a session in 'atm' mode.Please specify the account number of the account you wish to delete.Please specify the account name of the account you wish to delete.You have successfully deleted the account.You have successfully logged out.
