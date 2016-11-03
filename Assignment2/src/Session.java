@@ -1,7 +1,4 @@
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.FileReader;
-import java.io.FileWriter;
+import java.io.*;
 import java.security.InvalidParameterException;
 import java.util.ArrayList;
 import java.util.Date;
@@ -172,7 +169,10 @@ public class Session {
      */
     public boolean logout() {
         try {
-            BufferedWriter writer = new BufferedWriter(new FileWriter("/tsf/" + Long.toString(timestamp.getTime()) + "_tsf.txt"));
+            File dir = new File(File.separator  + "sessions" + File.separator);
+            dir.mkdir();
+            String filename = Long.toString(timestamp.getTime()) + "_tsf.txt";
+            BufferedWriter writer = new BufferedWriter(new FileWriter(new File(dir, filename)));
             for (Transaction transaction : transactions) {
                 writer.write(transaction.getTransactionSummaryEntry() + '\n');
             }

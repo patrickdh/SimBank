@@ -12,7 +12,7 @@ public class Transaction {
     private String accountName;
     private int money;
 
-    private static Scanner sc = new Scanner(System.in);
+    private static Scanner sc = SimBank_UI.sc;
 
     private Transaction(TransactionType transactionType, AccountNo recipientAccountNo, AccountNo senderAccountNo, String
             accountName, int money) {

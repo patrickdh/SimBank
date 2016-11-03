@@ -1,7 +1,4 @@
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.FileReader;
-import java.io.FileWriter;
+import java.io.*;
 import java.security.InvalidParameterException;
 import java.util.ArrayList;
 import java.util.Date;
@@ -21,7 +18,7 @@ public class Session {
     private int currentWithdrawnAmount;
     private int currentTransferAmount;
 
-    private static Scanner sc = new Scanner(System.in);
+    private static Scanner sc = SimBank_UI.sc;
 
     public Session(SessionMode sessionMode, List<AccountNo> validAccountNoList) {
         if (sessionMode == null || validAccountNoList == null) {
@@ -170,9 +167,11 @@ public class Session {
      *
      * @return true if the text file was generated successfully, false otherwise.
      */
-    public boolean logout() {
+    public boolean logout(String filename) {
         try {
-            BufferedWriter writer = new BufferedWriter(new FileWriter("/tsf/" + Long.toString(timestamp.getTime()) + "_tsf.txt"));
+            File dir = new File('.' + File.separator  + "out" + File.separator + "tsf" + File.separator);
+            dir.mkdirs();
+            BufferedWriter writer = new BufferedWriter(new FileWriter(new File(dir, filename)));
             for (Transaction transaction : transactions) {
                 writer.write(transaction.getTransactionSummaryEntry() + '\n');
             }
