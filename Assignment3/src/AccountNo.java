@@ -9,13 +9,15 @@ public class AccountNo {
 
     public AccountNo(String accountNoString) {
         int accountNumber;
-
+        if (accountNoString.length() != 8) {
+            throw new InvalidParameterException("You have entered an invalid account number. Valid account numbers are between 1000000 and 9999999.");
+        }
         try {
             accountNumber = Integer.parseInt(accountNoString);
         } catch (Exception e) {
             throw new InvalidParameterException("You have entered an invalid account number. Valid account numbers are between 1000000 and 9999999.");
         }
-        if (accountNumber < 1000000 || accountNumber > 99999999) {
+        if (accountNumber < 10000000 || accountNumber > 99999999) {
             throw new InvalidParameterException("You have entered an invalid account number. Valid account numbers are between 1000000 and 9999999.");
         }
 

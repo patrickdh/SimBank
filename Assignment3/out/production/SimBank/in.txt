@@ -1,8 +1,7 @@
 login
 agent
-deposit
-abc
-999999
+create
+10000327
 cancel
 logout
 exit

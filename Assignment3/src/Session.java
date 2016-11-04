@@ -66,7 +66,7 @@ public class Session {
                     Transaction newTransaction = Transaction.constructCreateTransaction(validAccountNoList);
                     if (newTransaction != null) {
                         transactions.add(newTransaction);
-                        System.out.println("Account has been successfully created.");
+                        System.out.println("Account has been successfully created. Please re-login to use this account.");
                     } else {
                         System.out.println("Creating account unsuccessful.");
                     }
@@ -154,19 +154,27 @@ public class Session {
 
         try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
             String line;
+            List<String> lines = new ArrayList<>();
             while ((line = br.readLine()) != null) {
+                lines.add(line);
+            }
+            if (!lines.get(lines.size() -1).equals("00000000")) {
+                System.out.printf("Valid accounts file must end in 00000000. Shutting down.");
+                System.exit(-1);
+            }
+            for (int i = 0; i < lines.size() - 1; ++i) {
                 try {
-                    AccountNo accountNo = new AccountNo(line);
+                    AccountNo accountNo = new AccountNo(lines.get(i));
                     validAccountNoList.add(accountNo);
                 } catch (Exception e) {
                     System.out.println("Invalid account number in Valid Accounts file. Shutting down.");
-                    System.exit(0);
+                    System.exit(-1);
                 }
             }
         } catch (Exception e) {
             System.out.println("Unable to read Valid Accounts file. Shutting down.");
             e.printStackTrace();
-            System.exit(0);
+            System.exit(-1);
         }
 
         return new Session(sessionMode, validAccountNoList);

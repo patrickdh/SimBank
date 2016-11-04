@@ -1,3 +1,4 @@
+import java.security.InvalidParameterException;
 import java.util.List;
 import java.util.Scanner;
 
@@ -40,7 +41,7 @@ public class Transaction {
      * @param validAccountNoList valid account numbers list to validate account number(s)
      * @return Transaction object for a 'create' transaction
      */
-    public static String constructCreateTransaction(List<AccountNo> validAccountNoList)
+    public static Transaction constructCreateTransaction(List<AccountNo> validAccountNoList)
     {
         AccountNo accountNo = null;
         String accountName = "";
@@ -167,13 +168,13 @@ public class Transaction {
             } else {
                 try {
                     int amount = Integer.parseInt(userInput);
-                    if (amount > -1) {
-                        depositAmount = amount;
+                    if (amount < 100) {
+                        throw new InvalidParameterException();
                     } else {
-                        System.out.println("Invalid money amount.");
+                        depositAmount = amount;
                     }
                 } catch(Exception e) {
-                    System.out.println("Invalid money amount.");
+                    System.out.println("Invalid money amount. You must withdraw at least 100 cents.");
                 }
             }
         }
@@ -249,6 +250,9 @@ public class Transaction {
             } else {
                 try{
                     int amount = Integer.parseInt(userInput);
+                    if (amount < 100) {
+                        throw new InvalidParameterException();
+                    }
                     if (amount > -1 && mode == SessionMode.ATM && (currentTransferAmount + amount) > SessionMode.ATM.getMaxTransfer()) {
                         System.out.println("Could not complete transaction due to surpassing transfer limit.");
                         return null;
@@ -258,14 +262,9 @@ public class Transaction {
                     } else {
                         transferAmount = amount;
                     }
-                    if (amount > -1) {
-                        transferAmount = amount;
-                    } else {
-                        System.out.println("Invalid money amount.");
-                    }
                 } catch(Exception e)
                 {
-                    System.out.println("Invalid money amount.");
+                    System.out.println("Invalid money amount. You must withdraw at least 100 cents.");
                 }
             }
         }
@@ -311,7 +310,7 @@ public class Transaction {
         }
 
         while(withdrawalAmount < 0) {
-            System.out.println("Please enter the amount of money you would like to withdraw");
+            System.out.println("Please enter the amount of money you would like to withdraw (in number of cents)");
             userInput = sc.next();
             if (userInput.equals("cancel")) {
                 System.out.println("You have cancelled the withdrawal.");
@@ -319,19 +318,22 @@ public class Transaction {
             } else {
                 try {
                     int amount = Integer.parseInt(userInput);
+                    if (amount < 100) {
+                        throw new InvalidParameterException();
+                    }
                     if (mode == SessionMode.ATM && (currentWithdrawalAmount + amount) > SessionMode.ATM.getMaxWithdraw()) {
                         //could not create due to overwithdrawal
-                        System.out.println("Could not complete transaction due to overwithdrawl");
+                        System.out.println("Could not complete transaction due to overwithdrawal");
                         return null;
                     } else if (mode == SessionMode.AGENT && (currentWithdrawalAmount + amount) > SessionMode.AGENT.getMaxWithdraw()) {
                         //could not create due to overwithdrawal
-                        System.out.println("Could not complete transaction due to overwithdrawl");
+                        System.out.println("Could not complete transaction due to overwithdrawal");
                         return null;
                     } else {
                         withdrawalAmount = amount;
                     }
                 } catch (Exception e) {
-                    System.out.println("Invalid money amount.");
+                    System.out.println("Invalid money amount. You must withdraw at least 100 cents.");
                 }
             }
         }

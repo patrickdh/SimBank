@@ -1,2 +1,1 @@
-loginagentcreate10000327myAccountNamelogout
-exit
+loginagentcreate10000327cancellogoutexit

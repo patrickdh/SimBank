@@ -16,6 +16,6 @@ withdraw
 a01234567
 12345678a
 abcdefgh
+cancel
 logout
 exit
-
