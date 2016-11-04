@@ -71,7 +71,7 @@ public class Transaction {
          do {
             System.out.println("Please enter the account's name.");
             userInput = sc.next().toUpperCase();
-            if (userInput.equals("cancel")) {
+            if (userInput.equals("CANCEL")) {
                 System.out.println("You have cancelled the account creation.");
                 return null;
             } else {
@@ -116,10 +116,10 @@ public class Transaction {
             }
         }
 
-        while (!validateAccountName(accountName)) {
+        do {
             System.out.println("Please enter the account name of the account you wish to delete.");
             accountName = sc.next().toUpperCase();
-        }
+        } while (!validateAccountName(accountName));
         validAccountNoList.remove(accountNo);
 
         return new Transaction(TransactionType.DELETE, accountNo, null, accountName, -1);
@@ -131,7 +131,7 @@ public class Transaction {
      * @param validAccountNoList valid account numbers list to validate account number(s)
      * @return
      */
-    public static Transaction constructDepositTransaction(List<AccountNo> validAccountNoList)
+    public static Transaction constructDepositTransaction(List<AccountNo> validAccountNoList, int currentDepositAmount, SessionMode mode)
     {
         AccountNo accountNo = null;
         String userInput;
@@ -170,11 +170,18 @@ public class Transaction {
                     int amount = Integer.parseInt(userInput);
                     if (amount < 100) {
                         throw new InvalidParameterException();
+                    }
+                    if (amount > -1 && mode == SessionMode.ATM && (currentDepositAmount + amount) > SessionMode.ATM.getMaxTransfer()) {
+                        System.out.println("Could not complete transaction due to surpassing deposit limit.");
+                        return null;
+                    } else if (mode == SessionMode.AGENT && (currentDepositAmount + amount) > SessionMode.AGENT.getMaxTransfer()) {
+                        System.out.println("Could not complete transaction due to surpassing deposit limit.");
+                        return null;
                     } else {
                         depositAmount = amount;
                     }
                 } catch(Exception e) {
-                    System.out.println("Invalid money amount. You must withdraw at least 100 cents.");
+                    System.out.println("Invalid money amount. You must deposit at least 100 cents.");
                 }
             }
         }
@@ -264,7 +271,7 @@ public class Transaction {
                     }
                 } catch(Exception e)
                 {
-                    System.out.println("Invalid money amount. You must withdraw at least 100 cents.");
+                    System.out.println("Invalid money amount. You must transfer at least 100 cents.");
                 }
             }
         }

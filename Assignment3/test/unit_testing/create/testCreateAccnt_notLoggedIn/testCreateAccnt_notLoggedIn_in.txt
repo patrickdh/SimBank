@@ -1,2 +1,1 @@
-loginlogoutcreate
-exit
+loginatmlogoutcreateexit

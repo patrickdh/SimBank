@@ -27,6 +27,7 @@ public class Session {
     private List<Transaction> transactions;
     private int currentWithdrawnAmount;
     private int currentTransferAmount;
+    private int currentDepositAmount;
 
     private static Scanner sc = SimBank_UI.sc;
 
@@ -40,6 +41,7 @@ public class Session {
             transactions = new ArrayList<>();
             currentTransferAmount = 0;
             currentWithdrawnAmount = 0;
+            currentDepositAmount = 0;
             timestamp = new Date();
         }
     }
@@ -90,8 +92,9 @@ public class Session {
                 break;
             } case "deposit": {
                 System.out.println("You have chosen to deposit. (Type 'cancel' to cancel the transaction)");
-                Transaction newTransaction = Transaction.constructDepositTransaction(validAccountNoList);
+                Transaction newTransaction = Transaction.constructDepositTransaction(validAccountNoList, currentDepositAmount, sessionMode);
                 if (newTransaction != null) {
+                    currentDepositAmount += newTransaction.getMoney();
                     transactions.add(newTransaction);
                     System.out.println("Deposit successful.");
                 } else {
@@ -102,6 +105,7 @@ public class Session {
                 System.out.println("You have chosen to transfer. (Type 'cancel' to cancel the transaction)");
                 Transaction newTransaction = Transaction.constructTransferTransaction(validAccountNoList, currentTransferAmount, sessionMode);
                 if (newTransaction != null) {
+                    currentTransferAmount += newTransaction.getMoney();
                     transactions.add(newTransaction);
                     System.out.println("Transfer successful.");
                 } else {

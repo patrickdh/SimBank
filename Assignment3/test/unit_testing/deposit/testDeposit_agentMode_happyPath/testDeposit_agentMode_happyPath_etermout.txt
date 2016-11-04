@@ -1,0 +1,17 @@
+Welcome to SimBank! Please enter 'login' to use SimBank.
+Please enter 'atm' or 'agent'.
+Please enter one of these commands:
+'create', 'delete', 'deposit', 'transfer', 'withdraw', 'logout'
+You have chosen to deposit. (Type 'cancel' to cancel the transaction)
+Please enter the account number of the account you wish to deposit to.
+Please enter the amount you would like to deposit (in number of cents).
+Deposit successful.
+Please enter one of these commands:
+'create', 'delete', 'deposit', 'transfer', 'withdraw', 'logout'
+You have chosen to deposit. (Type 'cancel' to cancel the transaction)
+Please enter the account number of the account you wish to deposit to.
+Please enter the amount you would like to deposit (in number of cents).
+Deposit successful.
+Please enter one of these commands:
+'create', 'delete', 'deposit', 'transfer', 'withdraw', 'logout'
+Session ended. Goodbye! Type 'login' to start another session.

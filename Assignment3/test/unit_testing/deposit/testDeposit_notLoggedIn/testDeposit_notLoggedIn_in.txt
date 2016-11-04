@@ -1,2 +1,5 @@
-loginlogoutdeposit
+login
+atm
+logout
+deposit
 exit

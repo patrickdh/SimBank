@@ -1,0 +1,90 @@
+no differences for file testCreateAccnt_accntNumberAlreadyExists_etsf.txt
+
+
+no differences for file testCreateAccnt_happyPath_etsf.txt
+
+
+no differences for file testCreateAccnt_invalidAccntName_etsf.txt
+
+
+no differences for file testCreateAccnt_newUserTransactionRejected_etsf.txt
+
+
+no differences for file testCreateAccnt_notLoggedIn_etsf.txt
+
+
+no differences for file testDeleteAccnt_accntDoesNotExist_etsf.txt
+
+
+no differences for file testDeleteAccnt_atmSession_etsf.txt
+
+
+no differences for file testDeleteAccnt_happyPath_etsf.txt
+
+
+no differences for file testDeleteAccnt_transactionOnDeletedAccntRejected_etsf.txt
+
+
+no differences for file testDeposit_agentMode_happyPath_etsf.txt
+
+
+no differences for file testDeposit_agentMode_invalidMoneyAmount_etsf.txt
+
+
+no differences for file testDeposit_atmMode_happyPath_etsf.txt
+
+
+no differences for file testDeposit_atmMode_invalidMoneyAmount_etsf.txt
+
+
+no differences for file testDeposit_notLoggedIn_etsf.txt
+
+
+no differences for file testLoginAndLogout_etsf.txt
+
+
+no differences for file testLogin_alreadyLoggedIn_etsf.txt
+
+
+no differences for file testLogout_logoutDuringSessionSelection_etsf.txt
+
+
+no differences for file testLogout_notLoggedin_etsf.txt
+
+
+no differences for file testReadValidAccountsFileSummary_invalidValidAccountsFileSummary_etsf.txt
+
+
+no differences for file testTransfer_agentMode_happyPath_etsf.txt
+
+
+no differences for file testTransfer_agentMode_invalidMoneyAmount_etsf.txt
+
+
+no differences for file testTransfer_atmMode_happyPath_etsf.txt
+
+
+no differences for file testTransfer_atmMode_invalidMoneyAmount_etsf.txt
+
+
+no differences for file testTransfer_notLoggedIn_etsf.txt
+
+
+no differences for file testWithdraw_agentMode_happyPath_etsf.txt
+
+
+no differences for file testWithdraw_agentMode_invalidMoneyAmount_etsf.txt
+
+
+no differences for file testWithdraw_atmMode_happyPath_etsf.txt
+
+
+no differences for file testWithdraw_atmMode_invalidMoneyAmount_etsf.txt
+
+
+no differences for file testWithdraw_notLoggedIn_etsf.txt
+
+
+no differences for file tsf_etsf.txt
+
+

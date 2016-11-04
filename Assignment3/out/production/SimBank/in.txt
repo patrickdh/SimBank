@@ -1,7 +1,5 @@
 login
-agent
-create
-10000327
-cancel
+atm
 logout
+deposit
 exit
