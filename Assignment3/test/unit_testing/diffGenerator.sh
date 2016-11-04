@@ -12,12 +12,15 @@ for parent in */ ; do
     cd $parent
     for child in */ ; do
         cd $child
-        for file in *_etsfout.txt ; do
+        for etsf in *_etsfout.txt ; do
             #so we're going to run the input
             counter=$((counter+1))
-            FileName=${file%????????????}
-            echo $FileName
-            DIFF=$(diff $file $file)
+            GeneratedTSF=${etsf%????????????}
+            
+            GeneratedTSF="tsf_${etsf}"
+    
+            DIFF=$(diff $etsf $generatedTSF)
+            
             if ["$DIFF" == ""]
             then
                 echo "\nNo errors found in unit test ${counter}\n\n" > diffFile.diff
