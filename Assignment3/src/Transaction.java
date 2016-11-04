@@ -40,7 +40,7 @@ public class Transaction {
      * @param validAccountNoList valid account numbers list to validate account number(s)
      * @return Transaction object for a 'create' transaction
      */
-    public static Transaction constructCreateTransaction(List<AccountNo> validAccountNoList)
+    public static String constructCreateTransaction(List<AccountNo> validAccountNoList)
     {
         AccountNo accountNo = null;
         String accountName = "";
@@ -67,7 +67,7 @@ public class Transaction {
             }
         }
 
-        while (!validateAccountName(accountName)) {
+         do {
             System.out.println("Please enter the account's name.");
             userInput = sc.next().toUpperCase();
             if (userInput.equals("cancel")) {
@@ -76,7 +76,7 @@ public class Transaction {
             } else {
                 accountName = userInput;
             }
-        }
+        } while (!validateAccountName(accountName));
 
         return new Transaction(TransactionType.CREATE, accountNo, null, accountName, -1);
     }
