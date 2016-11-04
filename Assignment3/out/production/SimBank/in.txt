@@ -1,7 +1,8 @@
 login
-atm
+agent
 deposit
-10010100
-1000
+abc
+999999
+cancel
 logout
 exit

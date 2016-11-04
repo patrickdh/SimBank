@@ -3,10 +3,17 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 /**
- * SimBank - The future of banking. Quality ensured!
+ * SimBank - The future of banking.
+ * The intention of this program is to act as the user interface for SimBank. This the entry-point
+ * for SimBank. This program will a "valid accounts" text file and a "transaction summary" file. The
+ * "valid accounts" file will be read once the user logs in. The program will output a transaction summary
+ * file after a session has been ended.
+ *
+ * The program is intended to be ran with a text file "valid-accounts-file.txt" and "_tsf.txt" along with user input
+ * via command line, but if given a textfile of valid commands as third parameter the program will also run as intended.
  */
-public class SimBank_UI
-{
+public class SimBank_UI {
+
     public static Scanner sc;
 
     public static void main(String[] args)

@@ -7,6 +7,16 @@ import java.util.Scanner;
 
 /**
  * Session Object for the SimBank banking system.
+ *
+ * There may only be one session running at a time. A session contains information
+ * about:
+ *  - session mode selected
+ *  - start time of the session
+ *  - accounts deleted during the session
+ *  - accounts created during the session
+ *  - a list of transactions that have occurred during the session
+ *  - total amount withdrawn during the session
+ *  - total amount transferred during the session
  */
 public class Session {
 
@@ -171,7 +181,7 @@ public class Session {
         try {
             File dir = new File('.' + File.separator  + "out" + File.separator + "tsf" + File.separator);
             dir.mkdirs();
-            BufferedWriter writer = new BufferedWriter(new FileWriter(new File(dir, filename)));
+            BufferedWriter writer = new BufferedWriter(new FileWriter(new File(dir, Long.toString(timestamp.getTime()) + filename)));
             for (Transaction transaction : transactions) {
                 writer.write(transaction.getTransactionSummaryEntry() + '\n');
             }

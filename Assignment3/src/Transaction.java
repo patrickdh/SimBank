@@ -2,7 +2,8 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * Transaction object for the SimBank banking system.
+ * Transaction object for the SimBank banking system. This Transaction object
+ * will hold all the information regarding a specific transaction.
  */
 public class Transaction {
 
@@ -14,6 +15,15 @@ public class Transaction {
 
     private static Scanner sc = SimBank_UI.sc;
 
+    /**
+     * Private constructor - Transaction objects can only be created through static methods
+     *
+     * @param transactionType Type of Transaction
+     * @param recipientAccountNo Account number of the recipient
+     * @param senderAccountNo Account number of the sender
+     * @param accountName Account name of created or deleted user
+     * @param money Amount of money involved in the transaction
+     */
     private Transaction(TransactionType transactionType, AccountNo recipientAccountNo, AccountNo senderAccountNo, String
             accountName, int money) {
 
@@ -30,7 +40,7 @@ public class Transaction {
      * @param validAccountNoList valid account numbers list to validate account number(s)
      * @return Transaction object for a 'create' transaction
      */
-    public static Transaction constructCreateTransaction(List<AccountNo> validAccountNoList)
+    public static String constructCreateTransaction(List<AccountNo> validAccountNoList)
     {
         AccountNo accountNo = null;
         String accountName = "";
@@ -57,7 +67,7 @@ public class Transaction {
             }
         }
 
-        while (!validateAccountName(accountName)) {
+         do {
             System.out.println("Please enter the account's name.");
             userInput = sc.next().toUpperCase();
             if (userInput.equals("cancel")) {
@@ -66,7 +76,7 @@ public class Transaction {
             } else {
                 accountName = userInput;
             }
-        }
+        } while (!validateAccountName(accountName));
 
         return new Transaction(TransactionType.CREATE, accountNo, null, accountName, -1);
     }
