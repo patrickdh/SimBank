@@ -1,192 +1,128 @@
 
-file: 
-testPromptUserForAccountNumber_invaldiInput_expectedOut.txt
-Diff File: 
-3c3,4 < Invalid account number in Valid Accounts file. Shutting down. --- > Please enter ‘atm’ or ‘agent’. > Invalid account number jsd Valid Accounts file. Shutting down.
+
+No errors found in unit test 1
 
 
-file: 
-testPromptUserForMoneyAmount_invaliInput_expectedOut.txt
 
 No errors found in unit test 2
 
 
-file: 
-testPromptUserForSessionType_invalidSessionType_expectedOut.txt
 
 No errors found in unit test 3
 
 
-file: 
-testReadValidAccountsFileSummary_invalidValidAccountsFileSummary_expectedOut.txt
 
 No errors found in unit test 4
 
 
-file: 
-testCreateAccnt_accntNumberAlreadyExists_expectedOut.txt
 
 No errors found in unit test 5
 
 
-file: 
-testCreateAccnt_happyPath_expectedOut.txt
 
 No errors found in unit test 6
 
 
-file: 
-testCreateAccnt_invalidAccntName_expectedOut.txt
 
 No errors found in unit test 7
 
 
-file: 
-testCreateAccnt_newUserTransactionRejected_expectedOut.txt
 
 No errors found in unit test 8
 
 
-file: 
-testCreateAccnt_notLoggedIn_expectedOut.txt
 
 No errors found in unit test 9
 
 
-file: 
-testDeleteAccnt_accntDoesNotExist_expectedOut.txt
 
 No errors found in unit test 10
 
 
-file: 
-testDeleteAccnt_atmSession_expectedOut.txt
 
 No errors found in unit test 11
 
 
-file: 
-testDeleteAccnt_happyPath_expectedOut.txt
 
 No errors found in unit test 12
 
 
-file: 
-testDeleteAccnt_transactionOnDeletedAccntRejected_expectedOut.txt
 
 No errors found in unit test 13
 
 
-file: 
-testDeposit_agentMode_happyPath_expectedOut.txt
 
 No errors found in unit test 14
 
 
-file: 
-testDeposit_agentMode_invalidMoneyAmount_expectedOut.txt
 
 No errors found in unit test 15
 
 
-file: 
-testDeposit_atmMode_happyPath_expectedOut.txt
 
 No errors found in unit test 16
 
 
-file: 
-testDeposit_atmMode_invalidMoneyAmount_expectedOut.txt
 
 No errors found in unit test 17
 
 
-file: 
-testDeposit_notLoggedIn_expectedOut.txt
 
 No errors found in unit test 18
 
 
-file: 
-testLoginAndLogout_expectedOut.txt
 
 No errors found in unit test 19
 
 
-file: 
-testLogin_alreadyLoggedIn_expectedOut.txt
 
 No errors found in unit test 20
 
 
-file: 
-testLogout_logoutDuringSessionSelection_expectedOut.txt
 
 No errors found in unit test 21
 
 
-file: 
-testLogout_notLoggedin_expectedOut.txt
 
 No errors found in unit test 22
 
 
-file: 
-testTransfer_agentMode_happyPath_expectedOut.txt
 
 No errors found in unit test 23
 
 
-file: 
-testTransfer_agentMode_invalidMoneyAmount_expectedOut.txt
 
 No errors found in unit test 24
 
 
-file: 
-testTransfer_atmMode_happyPath_expectedOut.txt
 
 No errors found in unit test 25
 
 
-file: 
-testTransfer_atmMode_invalidMoneyAmount_expectedOut.txt
 
 No errors found in unit test 26
 
 
-file: 
-testTransfer_notLoggedIn_expectedOut.txt
 
 No errors found in unit test 27
 
 
-file: 
-testWithdraw_agentMode_happyPath_expectedOut.txt
 
 No errors found in unit test 28
 
 
-file: 
-testWithdraw_agentMode_invalidMoneyAmount_expectedOut.txt
 
 No errors found in unit test 29
 
 
-file: 
-testWithdraw_atmMode_happyPath_expectedOut.txt
 
 No errors found in unit test 30
 
 
-file: 
-testWithdraw_atmMode_invalidMoneyAmount_expectedOut.txt
 
 No errors found in unit test 31
 
 
-file: 
-testWithdraw_notLoggedIn_expectedOut.txt
 
 No errors found in unit test 32
 

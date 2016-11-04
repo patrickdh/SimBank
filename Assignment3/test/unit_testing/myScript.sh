@@ -14,7 +14,6 @@ for parent in */ ; do
             #so we're going to run the inputs
             output=$file
             input=${testingPath}${parent}${child}$file
-            echo""
         done
         
         for file in *_vaf.txt ; do
@@ -22,14 +21,19 @@ for parent in */ ; do
         done
         tsf=${input%???????}
         tsf="${tsf}_tsf.txt"
+        
         #cd to the executable directory, run the file then pipe the output to an output directory
         
         cd ${exePath}
-        output=${output%???????} output="${output}_expectedOut.txt"
+        output=${output%???????}
         
-        echo ${output}
+
         
         java SimBank_UI $vaf $tsf $input >> "${testingPath}"${parent}${child}/$output
+        
+        #get the copy of the tsf and save it
+        cd "$exePath/out/tsf"
+        cp tsf.txt "${testingPath}$parent$child/tsf_${output}.txt"
         
         cd "${testingPath}/$parent"
     done

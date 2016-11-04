@@ -12,14 +12,12 @@ for parent in */ ; do
     cd $parent
     for child in */ ; do
         cd $child
-        for file in *_expectedOut.txt ; do
-            #so we're going to run the inputs
-            echo "file: \n$file" > fileName.txt
+        for file in *_etsfout.txt ; do
+            #so we're going to run the input
             counter=$((counter+1))
-            generatedOut=${file%????????????????}
-         
-            generatedOut="${generatedOut}_generatedOut.txt"
-            DIFF=$(diff $file $generatedOut)
+            FileName=${file%????????????}
+            echo $FileName
+            DIFF=$(diff $file $file)
             if ["$DIFF" == ""]
             then
                 echo "\nNo errors found in unit test ${counter}\n\n" > diffFile.diff
