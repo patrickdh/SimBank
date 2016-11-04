@@ -1,0 +1,2 @@
+loginagentdelete10000223myAccountNamewithdraw10000223logout
+exit

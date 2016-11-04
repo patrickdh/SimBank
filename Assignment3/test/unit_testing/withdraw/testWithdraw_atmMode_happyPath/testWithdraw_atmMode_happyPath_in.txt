@@ -1,0 +1,2 @@
+loginatmwithdraw100003275000logout
+exit

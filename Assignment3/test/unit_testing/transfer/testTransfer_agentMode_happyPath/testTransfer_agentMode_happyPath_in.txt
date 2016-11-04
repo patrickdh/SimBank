@@ -1,0 +1,2 @@
+loginagent Transfer 10000327 10000222 5000Transfer100003271000022250000000logout
+exit

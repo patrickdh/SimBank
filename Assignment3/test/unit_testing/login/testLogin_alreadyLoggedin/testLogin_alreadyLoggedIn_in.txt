@@ -1,0 +1,2 @@
+loginatmloginlogout
+exit

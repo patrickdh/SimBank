@@ -1,0 +1,2 @@
+loginagentcreate10000327myAccountNamelogout
+exit

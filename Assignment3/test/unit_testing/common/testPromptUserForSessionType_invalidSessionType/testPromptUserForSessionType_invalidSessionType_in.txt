@@ -1,0 +1,4 @@
+loginbadInput
+atmlogout
+exit
+exit
