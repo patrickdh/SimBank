@@ -1,2 +1,3 @@
-loginlogoutTransfer
+login
+atmlogouttransfer
 exit

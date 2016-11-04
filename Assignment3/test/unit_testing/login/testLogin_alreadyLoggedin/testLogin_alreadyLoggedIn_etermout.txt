@@ -1,0 +1,7 @@
+Please enter 'atm' or 'agent'.
+Please enter one of these commands: 
+'deposit', 'transfer', 'withdraw', 'logout'
+Invalid command.
+Please enter one of these commands: 
+'deposit', 'transfer', 'withdraw', 'logout'
+Session ended. Goodbye! Type 'login' to start another session.

@@ -1,2 +1,3 @@
-loginlogoutlogout
+login
+atmlogoutlogout
 exit
