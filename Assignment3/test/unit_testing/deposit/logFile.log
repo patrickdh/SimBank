@@ -1,0 +1,199 @@
+no differences for file   testDeposit_agentMode_happyPath_etsf.txt
+
+
+no differences for file testDeposit_agentMode_happyPath_etermout.txt
+
+
+Diff file for file testDeposit_agentMode_invalidMoneyAmount_etsf.txt: 
+ 0a1
+> DE***10000327500000000***
+
+
+no differences for file testDeposit_agentMode_invalidMoneyAmount_etermout.txt
+
+
+no differences for file   testDeposit_atmMode_happyPath_etsf.txt
+
+
+no differences for file testDeposit_atmMode_happyPath_etermout.txt
+
+
+Diff file for file testDeposit_atmMode_invalidMoneyAmount_etsf.txt: 
+ 0a1
+> DE***10000327500000***
+
+
+no differences for file testDeposit_atmMode_invalidMoneyAmount_etermout.txt
+
+
+Diff file for file testDeposit_notLoggedIn_etsf.txt: 
+ 0a1
+> DE***10000327500000***
+
+
+no differences for file testDeposit_notLoggedIn_etermout.txt
+
+
+no differences for file   testDeposit_agentMode_happyPath_etsf.txt
+
+
+no differences for file testDeposit_agentMode_happyPath_etermout.txt
+
+
+Diff file for file testDeposit_agentMode_invalidMoneyAmount_etsf.txt: 
+ 0a1
+> DE***10000327500000000***
+
+
+no differences for file testDeposit_agentMode_invalidMoneyAmount_etermout.txt
+
+
+no differences for file   testDeposit_atmMode_happyPath_etsf.txt
+
+
+no differences for file testDeposit_atmMode_happyPath_etermout.txt
+
+
+Diff file for file testDeposit_atmMode_invalidMoneyAmount_etsf.txt: 
+ 0a1
+> DE***10000327500000***
+
+
+no differences for file testDeposit_atmMode_invalidMoneyAmount_etermout.txt
+
+
+Diff file for file testDeposit_notLoggedIn_etsf.txt: 
+ 0a1
+> DE***10000327500000***
+
+
+no differences for file testDeposit_notLoggedIn_etermout.txt
+
+
+no differences for file   testDeposit_agentMode_happyPath_etsf.txt
+
+
+Diff file for file testDeposit_agentMode_happyPath_etermout.txt: 
+ 3c3
+< Please enter one of these commands:
+---
+> Please enter one of these commands: 
+9c9
+< Please enter one of these commands:
+---
+> Please enter one of these commands: 
+15c15
+< Please enter one of these commands:
+---
+> Please enter one of these commands: 
+17c17
+< Session ended. Goodbye! Type 'login' to start another session.
+\ No newline at end of file
+---
+> Session ended. Goodbye! Type 'login' to start another session.
+
+
+Diff file for file testDeposit_agentMode_invalidMoneyAmount_etsf.txt: 
+ 0a1
+> DE***10000327500000000***
+
+
+Diff file for file testDeposit_agentMode_invalidMoneyAmount_etermout.txt: 
+ 3c3
+< Please enter one of these commands:
+---
+> Please enter one of these commands: 
+8,10c8,9
+< Could not complete transaction due to surpassing deposit limit.
+< Deposit unsuccessful.
+< Please enter one of these commands:
+---
+> Deposit successful.
+> Please enter one of these commands: 
+12c11
+< Session ended. Goodbye! Type 'login' to start another session.
+\ No newline at end of file
+---
+> Session ended. Goodbye! Type 'login' to start another session.
+
+
+no differences for file   testDeposit_atmMode_happyPath_etsf.txt
+
+
+Diff file for file testDeposit_atmMode_happyPath_etermout.txt: 
+ 3c3
+< Please enter one of these commands:
+---
+> Please enter one of these commands: 
+9c9
+< Please enter one of these commands:
+---
+> Please enter one of these commands: 
+11c11
+< Session ended. Goodbye! Type 'login' to start another session.
+\ No newline at end of file
+---
+> Session ended. Goodbye! Type 'login' to start another session.
+
+
+Diff file for file testDeposit_atmMode_invalidMoneyAmount_etsf.txt: 
+ 0a1
+> DE***10000327500000***
+
+
+Diff file for file testDeposit_atmMode_invalidMoneyAmount_etermout.txt: 
+ 3c3
+< Please enter one of these commands:
+---
+> Please enter one of these commands: 
+8,10c8,9
+< Could not complete transaction due to surpassing deposit limit.
+< Deposit unsuccessful.
+< Please enter one of these commands:
+---
+> Deposit successful.
+> Please enter one of these commands: 
+12c11
+< Session ended. Goodbye! Type 'login' to start another session.
+\ No newline at end of file
+---
+> Session ended. Goodbye! Type 'login' to start another session.
+
+
+Diff file for file testDeposit_notLoggedIn_etsf.txt: 
+ 0a1
+> DE***10000327500000***
+
+
+Diff file for file testDeposit_notLoggedIn_etermout.txt: 
+ 3,6c3
+< Please enter one of these commands:
+< 'deposit', 'transfer', 'withdraw', 'logout'
+< Session ended. Goodbye! Type 'login' to start another session.
+< Please login before entering a command.
+\ No newline at end of file
+---
+> Please login before entering a command.
+
+
+no differences for file   testDeposit_agentMode_happyPath_etsf.txt
+
+
+Diff file for file testDeposit_agentMode_invalidMoneyAmount_etsf.txt: 
+ 0a1
+> DE***10000327500000000***
+
+
+no differences for file   testDeposit_atmMode_happyPath_etsf.txt
+
+
+Diff file for file testDeposit_atmMode_invalidMoneyAmount_etsf.txt: 
+ 0a1
+> DE***10000327500000***
+
+
+Diff file for file testDeposit_notLoggedIn_etsf.txt: 
+ 0a1
+> DE***10000327500000***
+
+

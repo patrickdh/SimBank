@@ -1,0 +1,248 @@
+no differences for file   testCreateAccnt_accntNumberAlreadyExists_etsf.txt
+
+
+no differences for file testCreateAccnt_accntNumberAlreadyExists_etermout.txt
+
+
+Diff file for file testCreateAccnt_happyPath_etsf.txt: 
+ 1d0
+< CR***12345678000FOOBAR
+
+
+no differences for file testCreateAccnt_happyPath_etermout.txt
+
+
+Diff file for file testCreateAccnt_invalidAccntName_etsf.txt: 
+ 0a1
+> CR***12345678000THISNAMEHASABEGINNINGSPACE
+
+
+no differences for file testCreateAccnt_invalidAccntName_etermout.txt
+
+
+Diff file for file testCreateAccnt_newUserTransactionRejected_etsf.txt: 
+ 1c1
+< CR***10000222000FOOBAR
+---
+> CR***12345678000THISNAMEHASABEGINNINGSPACE
+
+
+no differences for file testCreateAccnt_newUserTransactionRejected_etermout.txt
+
+
+Diff file for file testCreateAccnt_notLoggedIn_etsf.txt: 
+ 0a1
+> CR***12345678000THISNAMEHASABEGINNINGSPACE
+
+
+no differences for file testCreateAccnt_notLoggedIn_etermout.txt
+
+
+no differences for file   testCreateAccnt_accntNumberAlreadyExists_etsf.txt
+
+
+no differences for file testCreateAccnt_accntNumberAlreadyExists_etermout.txt
+
+
+Diff file for file testCreateAccnt_happyPath_etsf.txt: 
+ 1d0
+< CR***12345678000FOOBAR
+
+
+no differences for file testCreateAccnt_happyPath_etermout.txt
+
+
+Diff file for file testCreateAccnt_invalidAccntName_etsf.txt: 
+ 0a1
+> CR***12345678000THISNAMEHASABEGINNINGSPACE
+
+
+no differences for file testCreateAccnt_invalidAccntName_etermout.txt
+
+
+Diff file for file testCreateAccnt_newUserTransactionRejected_etsf.txt: 
+ 1c1
+< CR***10000222000FOOBAR
+---
+> CR***12345678000THISNAMEHASABEGINNINGSPACE
+
+
+no differences for file testCreateAccnt_newUserTransactionRejected_etermout.txt
+
+
+Diff file for file testCreateAccnt_notLoggedIn_etsf.txt: 
+ 0a1
+> CR***12345678000THISNAMEHASABEGINNINGSPACE
+
+
+no differences for file testCreateAccnt_notLoggedIn_etermout.txt
+
+
+no differences for file   testCreateAccnt_accntNumberAlreadyExists_etsf.txt
+
+
+Diff file for file testCreateAccnt_accntNumberAlreadyExists_etermout.txt: 
+ 3c3
+< Please enter one of these commands:
+---
+> Please enter one of these commands: 
+9,13c9,14
+< You have cancelled the account creation.
+< Creating account unsuccessful.
+< Please enter one of these commands:
+< 'create', 'delete', 'deposit', 'transfer', 'withdraw', 'logout'
+< Session ended. Goodbye! Type 'login' to start another session.
+\ No newline at end of file
+---
+> You have entered an invalid account number. Valid account numbers are between 1000000 and 9999999.
+> Please enter the account number of the account you wish to create.
+> You have entered an invalid account number. Valid account numbers are between 1000000 and 9999999.
+> Please enter the account number of the account you wish to create.
+> You have entered an invalid account number. Valid account numbers are between 1000000 and 9999999.
+> Please enter the account number of the account you wish to create.
+
+
+Diff file for file testCreateAccnt_happyPath_etsf.txt: 
+ 1d0
+< CR***12345678000FOOBAR
+
+
+Diff file for file testCreateAccnt_happyPath_etermout.txt: 
+ 3,11c3
+< Please enter one of these commands:
+< 'create', 'delete', 'deposit', 'transfer', 'withdraw', 'logout'
+< You have chosen to create an account. (Type 'cancel' to cancel the transaction)
+< Please enter the account number of the account you wish to create.
+< Please enter the account's name.
+< Account has been successfully created. Please re-login to use this account.
+< Please enter one of these commands:
+< 'create', 'delete', 'deposit', 'transfer', 'withdraw', 'logout'
+< Session ended. Goodbye! Type 'login' to start another session.
+\ No newline at end of file
+---
+> Invalid account number in Valid Accounts file. Shutting down.
+
+
+Diff file for file testCreateAccnt_invalidAccntName_etsf.txt: 
+ 0a1
+> CR***12345678000THISNAMEHASABEGINNINGSPACE
+
+
+Diff file for file testCreateAccnt_invalidAccntName_etermout.txt: 
+ 3c3
+< Please enter one of these commands:
+---
+> Please enter one of these commands: 
+7,9d6
+< Please enter the account's name.
+< Invalid account name
+< Please enter the account's name.
+14,16c11,21
+< You have cancelled the account creation.
+< Creating account unsuccessful.
+< Please enter one of these commands:
+---
+> Account has been successfully created.
+> Please enter one of these commands: 
+> 'create', 'delete', 'deposit', 'transfer', 'withdraw', 'logout'
+> Invalid command.
+> Please enter one of these commands: 
+> 'create', 'delete', 'deposit', 'transfer', 'withdraw', 'logout'
+> Invalid command.
+> Please enter one of these commands: 
+> 'create', 'delete', 'deposit', 'transfer', 'withdraw', 'logout'
+> Invalid command.
+> Please enter one of these commands: 
+18c23
+< Session ended. Goodbye! Type 'login' to start another session.
+\ No newline at end of file
+---
+> Session ended. Goodbye! Type 'login' to start another session.
+
+
+Diff file for file testCreateAccnt_newUserTransactionRejected_etsf.txt: 
+ 1c1
+< CR***10000222000FOOBAR
+---
+> CR***12345678000THISNAMEHASABEGINNINGSPACE
+
+
+Diff file for file testCreateAccnt_newUserTransactionRejected_etermout.txt: 
+ 3c3
+< Please enter one of these commands:
+---
+> Please enter one of these commands: 
+6a7
+> Invalid account name
+8,9c9,10
+< Account has been successfully created. Please re-login to use this account.
+< Please enter one of these commands:
+---
+> Account has been successfully created.
+> Please enter one of these commands: 
+11,12c12,14
+< You have chosen to withdraw. (Type 'cancel' to cancel the transaction)
+< Please enter the account number of the account you wish to withdraw from.
+---
+> You have chosen to transfer. (Type 'cancel' to cancel the transaction)
+> Please enter the account number of the account you wish to transfer FROM.
+> Please enter the account number of the account you wish to transfer TO.
+14,19c16,22
+< Please enter the account number of the account you wish to withdraw from.
+< You have cancelled the withdrawal.
+< Withdrawal unsuccessful.
+< Please enter one of these commands:
+< 'create', 'delete', 'deposit', 'transfer', 'withdraw', 'logout'
+< Session ended. Goodbye! Type 'login' to start another session.
+\ No newline at end of file
+---
+> Please enter the account number of the account you wish to transfer TO.
+> This account does not exist
+> Please enter the account number of the account you wish to transfer TO.
+> You have entered an invalid account number. Valid account numbers are between 1000000 and 9999999.
+> Please enter the account number of the account you wish to transfer TO.
+> You have entered an invalid account number. Valid account numbers are between 1000000 and 9999999.
+> Please enter the account number of the account you wish to transfer TO.
+
+
+Diff file for file testCreateAccnt_notLoggedIn_etsf.txt: 
+ 0a1
+> CR***12345678000THISNAMEHASABEGINNINGSPACE
+
+
+Diff file for file testCreateAccnt_notLoggedIn_etermout.txt: 
+ 3,6c3
+< Please enter one of these commands:
+< 'create', 'delete', 'deposit', 'transfer', 'withdraw', 'logout'
+< Session ended. Goodbye! Type 'login' to start another session.
+< Please login before entering a command.
+\ No newline at end of file
+---
+> Please login before entering a command.
+
+
+no differences for file   testCreateAccnt_accntNumberAlreadyExists_etsf.txt
+
+
+Diff file for file testCreateAccnt_happyPath_etsf.txt: 
+ 1d0
+< CR***12345678000FOOBAR
+
+
+Diff file for file testCreateAccnt_invalidAccntName_etsf.txt: 
+ 0a1
+> CR***12345678000THISNAMEHASABEGINNINGSPACE
+
+
+Diff file for file testCreateAccnt_newUserTransactionRejected_etsf.txt: 
+ 1c1
+< CR***10000222000FOOBAR
+---
+> CR***12345678000THISNAMEHASABEGINNINGSPACE
+
+
+Diff file for file testCreateAccnt_notLoggedIn_etsf.txt: 
+ 0a1
+> CR***12345678000THISNAMEHASABEGINNINGSPACE
+
+

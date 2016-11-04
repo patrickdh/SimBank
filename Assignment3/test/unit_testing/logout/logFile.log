@@ -1,0 +1,37 @@
+Diff file for file testLogout_notLoggedin_etsf.txt: 
+ 0a1
+> DE***10000327500000***
+
+
+no differences for file testLogout_notLoggedin_etermout.txt
+
+
+Diff file for file testLogout_notLoggedin_etsf.txt: 
+ 0a1
+> DE***10000327500000***
+
+
+no differences for file testLogout_notLoggedin_etermout.txt
+
+
+Diff file for file testLogout_notLoggedin_etsf.txt: 
+ 0a1
+> DE***10000327500000***
+
+
+Diff file for file testLogout_notLoggedin_etermout.txt: 
+ 3,6c3
+< Please enter one of these commands: 
+< 'deposit', 'transfer', 'withdraw', 'logout'
+< Session ended. Goodbye! Type 'login' to start another session.
+< Please login before entering a command.
+\ No newline at end of file
+---
+> Please login before entering a command.
+
+
+Diff file for file testLogout_notLoggedin_etsf.txt: 
+ 0a1
+> DE***10000327500000***
+
+

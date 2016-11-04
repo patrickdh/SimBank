@@ -1,0 +1,169 @@
+no differences for file   testWithdraw_agentMode_happyPath_etsf.txt
+
+
+no differences for file testWithdraw_agentMode_happyPath_etermout.txt
+
+
+Diff file for file testWithdraw_agentMode_invalidMoneyAmount_etsf.txt: 
+ 0a1,2
+> WD***1000032750000***
+> WD***1000032750000000***
+
+
+no differences for file testWithdraw_agentMode_invalidMoneyAmount_etermout.txt
+
+
+no differences for file   testWithdraw_atmMode_happyPath_etsf.txt
+
+
+no differences for file testWithdraw_atmMode_happyPath_etermout.txt
+
+
+no differences for file   testWithdraw_atmMode_invalidMoneyAmount_etsf.txt
+
+
+no differences for file testWithdraw_atmMode_invalidMoneyAmount_etermout.txt
+
+
+no differences for file   testWithdraw_notLoggedIn_etsf.txt
+
+
+no differences for file testWithdraw_notLoggedIn_etermout.txt
+
+
+no differences for file   testWithdraw_agentMode_happyPath_etsf.txt
+
+
+no differences for file testWithdraw_agentMode_happyPath_etermout.txt
+
+
+Diff file for file testWithdraw_agentMode_invalidMoneyAmount_etsf.txt: 
+ 0a1,2
+> WD***1000032750000***
+> WD***1000032750000000***
+
+
+no differences for file testWithdraw_agentMode_invalidMoneyAmount_etermout.txt
+
+
+no differences for file   testWithdraw_atmMode_happyPath_etsf.txt
+
+
+no differences for file testWithdraw_atmMode_happyPath_etermout.txt
+
+
+no differences for file   testWithdraw_atmMode_invalidMoneyAmount_etsf.txt
+
+
+no differences for file testWithdraw_atmMode_invalidMoneyAmount_etermout.txt
+
+
+no differences for file   testWithdraw_notLoggedIn_etsf.txt
+
+
+no differences for file testWithdraw_notLoggedIn_etermout.txt
+
+
+no differences for file   testWithdraw_agentMode_happyPath_etsf.txt
+
+
+Diff file for file testWithdraw_agentMode_happyPath_etermout.txt: 
+ 7c7
+< Please enter the amount of money you would like to withdraw (in number of cents)
+---
+> Please enter the amount of money you would like to withdraw
+13c13
+< Please enter the amount of money you would like to withdraw (in number of cents)
+---
+> Please enter the amount of money you would like to withdraw
+17c17
+< Session ended. Goodbye! Type 'login' to start another session.
+\ No newline at end of file
+---
+> Session ended. Goodbye! Type 'login' to start another session.
+
+
+Diff file for file testWithdraw_agentMode_invalidMoneyAmount_etsf.txt: 
+ 0a1,2
+> WD***1000032750000***
+> WD***1000032750000000***
+
+
+Diff file for file testWithdraw_agentMode_invalidMoneyAmount_etermout.txt: 
+ 7,12c7,13
+< Please enter the amount of money you would like to withdraw (in number of cents)
+< Could not complete transaction due to overwithdrawal
+< Withdrawal unsuccessful.
+< Please enter one of these commands: 
+< 'create', 'delete', 'deposit', 'transfer', 'withdraw', 'logout'
+< Session ended. Goodbye! Type 'login' to start another session.
+\ No newline at end of file
+---
+> Please enter the amount of money you would like to withdraw
+> Invalid money amount.
+> Please enter the amount of money you would like to withdraw
+> Invalid money amount.
+> Please enter the amount of money you would like to withdraw
+> Invalid money amount.
+> Please enter the amount of money you would like to withdraw
+
+
+no differences for file   testWithdraw_atmMode_happyPath_etsf.txt
+
+
+Diff file for file testWithdraw_atmMode_happyPath_etermout.txt: 
+ 7c7
+< Please enter the amount of money you would like to withdraw (in number of cents)
+---
+> Please enter the amount of money you would like to withdraw
+11c11
+< Session ended. Goodbye! Type 'login' to start another session.
+\ No newline at end of file
+---
+> Session ended. Goodbye! Type 'login' to start another session.
+
+
+no differences for file   testWithdraw_atmMode_invalidMoneyAmount_etsf.txt
+
+
+Diff file for file testWithdraw_atmMode_invalidMoneyAmount_etermout.txt: 
+ 7,8c7,8
+< Please enter the amount of money you would like to withdraw (in number of cents)
+< Could not complete transaction due to overwithdrawal
+---
+> Please enter the amount of money you would like to withdraw
+> Could not complete transaction due to overwithdrawl
+
+
+no differences for file   testWithdraw_notLoggedIn_etsf.txt
+
+
+Diff file for file testWithdraw_notLoggedIn_etermout.txt: 
+ 3,6c3
+< Please enter one of these commands: 
+< 'deposit', 'transfer', 'withdraw', 'logout'
+< Session ended. Goodbye! Type 'login' to start another session.
+< Please login before entering a command.
+\ No newline at end of file
+---
+> Please login before entering a command.
+
+
+no differences for file   testWithdraw_agentMode_happyPath_etsf.txt
+
+
+Diff file for file testWithdraw_agentMode_invalidMoneyAmount_etsf.txt: 
+ 0a1,2
+> WD***1000032750000***
+> WD***1000032750000000***
+
+
+no differences for file   testWithdraw_atmMode_happyPath_etsf.txt
+
+
+no differences for file   testWithdraw_atmMode_invalidMoneyAmount_etsf.txt
+
+
+no differences for file   testWithdraw_notLoggedIn_etsf.txt
+
+
