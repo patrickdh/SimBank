@@ -11,8 +11,8 @@ for parent in */ ; do
     for child in */ ; do
         cd $child
         
-        for file in tsf_*; do
-            rm -rf $file
+        for file in etsf_*; do
+            cp $file ${file:1}
         done
         
         cd "${testingPath}/$parent"

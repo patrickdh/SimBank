@@ -8,37 +8,9 @@ testingPath="/Users/stuartbourne/documents/school/cmpe327/Assn3/Assignment3/test
 #loop through directories to access files
 counter=0
 echo "" > logFile.log
-for parent in */ ; do
-    cd $parent
-    for child in */ ; do
-        cd $child
-        for etsf in *_etsfout.txt ; do
-            #so we're going to run the input
-            counter=$((counter+1))
-            GeneratedTSF=${etsf%????????????}
-            
-            GeneratedTSF="tsf_${etsf}"
-    
-            DIFF=$(diff $etsf $generatedTSF)
-            
-            if ["$DIFF" == ""]
-            then
-                echo "\nNo errors found in unit test ${counter}\n\n" > diffFile.diff
-            else
-                echo "Diff File: \n"$DIFF"\n\n" > diffFile.diff
-            fi
-            cat diffFile.diff >> fileName.txt
-            
-            rm -rf diffFile.diff
-            
-            #now write to log
-            cat fileName.txt >> "${testingPath}/logFile.log"
-            
-            rm -rf fileName.txt
-            rm -rf logFile.log
-            
-        done
-        cd "${testingPath}$parent"
-    done
-    cd ..
+cd $exePath
+cd "out/tsf"
+for file in *.txt ; do
+    NEWFILE=${exePath:????}
+    diff $file "$exePath/out/etsf/${NEWFILE}_etsf.txt" > "${file}_diff"
 done

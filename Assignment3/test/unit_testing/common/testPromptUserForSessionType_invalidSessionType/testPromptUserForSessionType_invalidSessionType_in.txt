@@ -1,3 +1,4 @@
-loginbadInputlogout
+loginbadInput
+atmlogout
 exit
 exit
