@@ -34,8 +34,7 @@ for parent in */ ; do
         
         #get the copy of the tsf and save it
         cd "$exePath/out/tsf"
-        cp $tsf "$output.txt" #"${testingPath}$parent$child/tsf_${output}.txt"
-        
+        cp $tsf "$output.txt" 
         cd "${testingPath}/$parent"
         echo ""
     done
