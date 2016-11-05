@@ -160,7 +160,7 @@ public class Session {
             String line;
             List<String> lines = new ArrayList<>();
             while ((line = br.readLine()) != null) {
-                lines.add(line);
+                lines.add(line.trim());
             }
             if (!lines.get(lines.size() -1).equals("00000000")) {
                 System.out.printf("Valid accounts file must end in 00000000. Shutting down.");
