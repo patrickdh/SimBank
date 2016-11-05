@@ -1,7 +1,7 @@
 Welcome to SimBank! Please enter 'login' to use SimBank.
 Please enter 'atm' or 'agent'.
 Please enter one of these commands:
-'deposit', 'transfer', 'withdraw', 'logout'
+'deposit', 'transfer', 'withdraw', 'logout’123
 You have chosen to withdraw. (Type 'cancel' to cancel the transaction)
 Please enter the account number of the account you wish to withdraw from.
 You have entered an invalid account number. Valid account numbers are between 1000000 and 9999999.

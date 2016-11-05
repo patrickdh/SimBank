@@ -1,0 +1,222 @@
+no differences for file testReadValidAccountsFileSummary_invalidValidAccountsFileSummary_etermout.txt
+
+
+no differences for file testReadValidAccountsFileSummary_invalidValidAccountsFileSummary_etermout.txt
+
+
+no differences for file testReadValidAccountsFileSummary_invalidValidAccountsFileSummary_etermout.txt
+
+
+no differences for file testReadValidAccountsFileSummary_invalidValidAccountsFileSummary_etermout.txt
+
+
+no differences for file   1478307062617testPromptUserForAccountNumber_invaldiInput_tsf.txt
+
+
+no differences for file testPromptUserForAccountNumber_invalidInput_etermout.txt
+
+
+no differences for file   1478307063428testPromptUserForMoneyAmount_invaliInput_tsf.txt
+
+
+no differences for file   1478307064242testPromptUserForSessionType_invalidSessionType_tsf.txt
+
+
+no differences for file testReadValidAccountsFileSummary_invalidValidAccountsFileSummary_etermout.txt
+
+
+no differences for file testReadValidAccountsFileSummary_invalidValidAccountsFileSummary_etermout.txt
+
+
+no differences for file testReadValidAccountsFileSummary_invalidValidAccountsFileSummary_etermout.txt
+
+
+no differences for file testReadValidAccountsFileSummary_invalidValidAccountsFileSummary_etermout.txt
+
+
+no differences for file testReadValidAccountsFileSummary_invalidValidAccountsFileSummary_etermout.txt
+
+
+no differences for file testReadValidAccountsFileSummary_invalidValidAccountsFileSummary_etermout.txt
+
+
+no differences for file testReadValidAccountsFileSummary_invalidValidAccountsFileSummary_etermout.txt
+
+
+no differences for file   testPromptUserForAccountNumber_invaldiInput_etsf.txt
+
+
+no differences for file testPromptUserForAccountNumber_invalidInput_etermout.txt
+
+
+no differences for file   testPromptUserForMoneyAmount_invaliInput_etsf.txt
+
+
+no differences for file   testPromptUserForSessionType_invalidSessionType_etsf.txt
+
+
+no differences for file testReadValidAccountsFileSummary_invalidValidAccountsFileSummary_etermout.txt
+
+
+no differences for file   testPromptUserForAccountNumber_invaldiInput_etsf.txt
+
+
+no differences for file testPromptUserForAccountNumber_invalidInput_etermout.txt
+
+
+no differences for file   testPromptUserForMoneyAmount_invaliInput_etsf.txt
+
+
+no differences for file   testPromptUserForSessionType_invalidSessionType_etsf.txt
+
+
+no differences for file testReadValidAccountsFileSummary_invalidValidAccountsFileSummary_etermout.txt
+
+
+no differences for file   testPromptUserForAccountNumber_invaldiInput_etsf.txt
+
+
+no differences for file testPromptUserForAccountNumber_invalidInput_etermout.txt
+
+
+no differences for file   testPromptUserForMoneyAmount_invaliInput_etsf.txt
+
+
+no differences for file   testPromptUserForSessionType_invalidSessionType_etsf.txt
+
+
+no differences for file testReadValidAccountsFileSummary_invalidValidAccountsFileSummary_etermout.txt
+
+
+no differences for file   testPromptUserForAccountNumber_invaldiInput_etsf.txt
+
+
+no differences for file testPromptUserForAccountNumber_invalidInput_etermout.txt
+
+
+Diff file for file testPromptUserForMoneyAmount_invaliInput_etsf.txt: 
+ 1d0
+< DE***100101001000***
+
+
+no differences for file   testPromptUserForSessionType_invalidSessionType_etsf.txt
+
+
+no differences for file testReadValidAccountsFileSummary_invalidValidAccountsFileSummary_etermout.txt
+
+
+no differences for file   testPromptUserForAccountNumber_invaldiInput_etsf.txt
+
+
+no differences for file testPromptUserForAccountNumber_invalidInput_etermout.txt
+
+
+Diff file for file testPromptUserForMoneyAmount_invaliInput_etsf.txt: 
+ 1d0
+< DE***100101001000***
+
+
+no differences for file   testPromptUserForSessionType_invalidSessionType_etsf.txt
+
+
+no differences for file testReadValidAccountsFileSummary_invalidValidAccountsFileSummary_etermout.txt
+
+
+no differences for file   testPromptUserForAccountNumber_invaldiInput_etsf.txt
+
+
+no differences for file testPromptUserForAccountNumber_invalidInput_etermout.txt
+
+
+Diff file for file testPromptUserForMoneyAmount_invaliInput_etsf.txt: 
+ --- testPromptUserForMoneyAmount_invaliInput_etsf.txt	2016-11-04 19:17:57.000000000 -0400
++++ /Users/stuartbourne/documents/school/cmpe327/Assn3/Assignment3/src/out//tsf/1478307544551testPromptUserForMoneyAmount_invaliInput_tsf.txt	2016-11-04 20:59:04.000000000 -0400
+@@ -1,2 +1 @@
+-DE***100101001000***
+ ES
+\ No newline at end of file
+
+
+no differences for file testPromptUserForMoneyAmount_invaliInput_etermout.txt
+
+
+no differences for file   testPromptUserForSessionType_invalidSessionType_etsf.txt
+
+
+no differences for file testPromptUserForSessionType_invalidSessionType_etermout.txt
+
+
+no differences for file testReadValidAccountsFileSummary_invalidValidAccountsFileSummary_etermout.txt
+
+
+no differences for file   testPromptUserForAccountNumber_invaldiInput_etsf.txt
+
+
+no differences for file testPromptUserForAccountNumber_invalidInput_etermout.txt
+
+
+Diff file for file testPromptUserForMoneyAmount_invaliInput_etsf.txt: 
+ --- testPromptUserForMoneyAmount_invaliInput_etsf.txt	2016-11-04 19:17:57.000000000 -0400
++++ /Users/stuartbourne/documents/school/cmpe327/Assn3/Assignment3/src/out//tsf/1478307544551testPromptUserForMoneyAmount_invaliInput_tsf.txt	2016-11-04 20:59:04.000000000 -0400
+@@ -1,2 +1 @@
+-DE***100101001000***
+ ES
+\ No newline at end of file
+
+
+no differences for file testPromptUserForMoneyAmount_invaliInput_etermout.txt
+
+
+no differences for file   testPromptUserForSessionType_invalidSessionType_etsf.txt
+
+
+no differences for file testPromptUserForSessionType_invalidSessionType_etermout.txt
+
+
+no differences for file testReadValidAccountsFileSummary_invalidValidAccountsFileSummary_etermout.txt
+
+
+no differences for file   testPromptUserForAccountNumber_invaldiInput_etsf.txt
+
+
+no differences for file testPromptUserForAccountNumber_invalidInput_etermout.txt
+
+
+Diff file for file testPromptUserForMoneyAmount_invaliInput_etsf.txt: 
+ 1d0
+< DE***100101001000***
+
+
+no differences for file   testPromptUserForSessionType_invalidSessionType_etsf.txt
+
+
+no differences for file testReadValidAccountsFileSummary_invalidValidAccountsFileSummary_etermout.txt
+
+
+no differences for file   testPromptUserForAccountNumber_invaldiInput_etsf.txt
+
+
+no differences for file testPromptUserForAccountNumber_invalidInput_etermout.txt
+
+
+Diff file for file testPromptUserForMoneyAmount_invaliInput_etsf.txt: 
+ --- testPromptUserForMoneyAmount_invaliInput_etsf.txt	2016-11-04 19:17:57.000000000 -0400
++++ /Users/stuartbourne/documents/school/cmpe327/Assn3/Assignment3/src/out//tsf/1478307544551testPromptUserForMoneyAmount_invaliInput_tsf.txt	2016-11-04 20:59:04.000000000 -0400
+@@ -1,2 +1 @@
+-DE***100101001000***
+ ES
+\ No newline at end of file
+
+
+no differences for file testPromptUserForMoneyAmount_invaliInput_etermout.txt
+
+
+no differences for file   testPromptUserForSessionType_invalidSessionType_etsf.txt
+
+
+no differences for file testPromptUserForSessionType_invalidSessionType_etermout.txt
+
+
+no differences for file testReadValidAccountsFileSummary_invalidValidAccountsFileSummary_etermout.txt
+
+

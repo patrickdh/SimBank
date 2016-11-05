@@ -16,15 +16,19 @@ for parent in */ ; do
         
         for file in *_etsf.txt ; do
             TSFFILENAME=${file%?????????}
+            SECONDDIR=$(pwd)
             cd ${exePath}tsf 
             
-            for file in *"${TSFFILENAME}_tsf.txt"
+            shopt -s nullglob
+            for another in *"${TSFFILENAME}_tsf.txt"
             do
-                TSFFILE=$file
+                TSFFILE="$exePath/tsf/$another"
+                
             done
             
-            DIFF=$(diff $file $TSFFILE)
-    
+            cd $SECONDDIR 
+            DIFF=$(diff -u --ignore-all-space $file $TSFFILE)
+            
             if ["$DIFF" = ""]
             then
                 echo "no differences for file   $file\n\n" >> "../logFile.log"
@@ -36,7 +40,7 @@ for parent in */ ; do
         for file in *_etermout.txt ; do
             TERMFILENAME=${file%?????????????}
             TERMFILE="${exePath}termout/${TERMFILENAME}_termout.txt"
-            DIFF=$(diff $file $TERMFILE)
+            DIFF=$(diff -u --ignore-all-space $file $TERMFILE)
 
             if ["$DIFF" = ""]
             then

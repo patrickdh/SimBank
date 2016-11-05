@@ -34,9 +34,10 @@ for parent in */ ; do
         
         #cd to the executable directory, run the file then pipe the output to an output directory
         
-        tsf="$output.txt"
+        
         cd ${exePath}
         output=${output%???????}
+        tsf="${output}_tsf.txt"
         
         echo "output : $output"
         

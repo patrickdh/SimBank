@@ -25,7 +25,8 @@ Invalid money amount. You must withdraw at least 100 cents.
 Please enter the amount of money you would like to withdraw (in number of cents)
 Invalid money amount. You must withdraw at least 100 cents.
 Please enter the amount of money you would like to withdraw (in number of cents)
-Invalid money amount. You must withdraw at least 100 cents.
-Please enter the amount of money you would like to withdraw (in number of cents)
-Invalid money amount. You must withdraw at least 100 cents.
-Please enter the amount of money you would like to withdraw (in number of cents)
+You have cancelled the withdrawal.
+Withdrawal unsuccessful.
+Please enter one of these commands: 
+'deposit', 'transfer', 'withdraw', 'logout'
+Session ended. Goodbye! Type 'login' to start another session.

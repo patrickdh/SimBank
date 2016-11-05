@@ -1,0 +1,72 @@
+Terminal diff file for file testCreateAccnt_invalidAccntName_etermout.txt: 
+ --- testCreateAccnt_invalidAccntName_etermout.txt	2016-11-04 19:17:57.000000000 -0400
++++ /Users/stuartbourne/documents/school/cmpe327/Assn3/Assignment3/src/out/termout/testCreateAccnt_invalidAccntName_termout.txt	2016-11-04 20:59:09.000000000 -0400
+@@ -11,8 +11,7 @@
+ Please enter the account's name.
+ Invalid account name
+ Please enter the account's name.
+-You have cancelled the account creation.
+-Creating account unsuccessful.
++Account has been successfully created. Please re-login to use this account.
+ Please enter one of these commands:
+ 'create', 'delete', 'deposit', 'transfer', 'withdraw', 'logout'
+ Session ended. Goodbye! Type 'login' to start another session.
+\ No newline at end of file
+
+
+Terminal diff file for file testCreateAccnt_notLoggedIn_etermout.txt: 
+ --- testCreateAccnt_notLoggedIn_etermout.txt	2016-11-04 19:17:57.000000000 -0400
++++ /Users/stuartbourne/documents/school/cmpe327/Assn3/Assignment3/src/out/termout/testCreateAccnt_notLoggedIn_termout.txt	2016-11-04 20:59:11.000000000 -0400
+@@ -1,6 +1,3 @@
+ Welcome to SimBank! Please enter 'login' to use SimBank.
+ Please enter 'atm' or 'agent'.
+-Please enter one of these commands:
+-'create', 'delete', 'deposit', 'transfer', 'withdraw', 'logout'
+-Session ended. Goodbye! Type 'login' to start another session.
+-Please login before entering a command.
+\ No newline at end of file
++Valid accounts file must end in 00000000. Shutting down.
+\ No newline at end of file
+
+
+Terminal diff file for file testDeleteAccnt_atmSession_etermout.txt: 
+ --- testDeleteAccnt_atmSession_etermout.txt	2016-11-04 19:17:57.000000000 -0400
++++ /Users/stuartbourne/documents/school/cmpe327/Assn3/Assignment3/src/out/termout/testDeleteAccnt_atmSession_termout.txt	2016-11-04 20:59:12.000000000 -0400
+@@ -1,7 +1,5 @@
+ Welcome to SimBank! Please enter 'login' to use SimBank.
+ Please enter 'atm' or 'agent'.
+-Invalid session mode.
+-Please enter 'atm' or 'agent'.
+ Please enter one of these commands:
+ 'deposit', 'transfer', 'withdraw', 'logout'
+ Invalid command.
+
+
+Terminal diff file for file testDeleteAccnt_happyPath_etermout.txt: 
+ --- testDeleteAccnt_happyPath_etermout.txt	2016-11-04 19:17:57.000000000 -0400
++++ /Users/stuartbourne/documents/school/cmpe327/Assn3/Assignment3/src/out/termout/testDeleteAccnt_happyPath_termout.txt	2016-11-04 20:59:13.000000000 -0400
+@@ -4,7 +4,6 @@
+ 'create', 'delete', 'deposit', 'transfer', 'withdraw', 'logout'
+ You have chosen to delete an account. (Type 'cancel' to cancel the transaction)
+ Please enter the account number of the account you wish to delete.
+-Invalid account name
+ Please enter the account name of the account you wish to delete.
+ Account has been successfully deleted.
+ Please enter one of these commands:
+
+
+Terminal diff file for file testWithdraw_notLoggedIn_etermout.txt: 
+ --- testWithdraw_notLoggedIn_etermout.txt	2016-11-04 19:17:58.000000000 -0400
++++ /Users/stuartbourne/documents/school/cmpe327/Assn3/Assignment3/src/out/termout/testWithdraw_notLoggedIn_termout.txt	2016-11-04 20:59:29.000000000 -0400
+@@ -1,6 +1,3 @@
+ Welcome to SimBank! Please enter 'login' to use SimBank.
+ Please enter 'atm' or 'agent'.
+-Please enter one of these commands: 
+-'deposit', 'transfer', 'withdraw', 'logout'
+-Session ended. Goodbye! Type 'login' to start another session.
+-Please login before entering a command.
+\ No newline at end of file
++Valid accounts file must end in 00000000. Shutting down.
+\ No newline at end of file
+
+

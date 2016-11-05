@@ -1,0 +1,225 @@
+no differences for file   1478307065852testCreateAccnt_accntNumberAlreadyExists_tsf.txt
+
+
+no differences for file   1478307066649testCreateAccnt_happyPath_tsf.txt
+
+
+no differences for file   1478307067477testCreateAccnt_invalidAccntName_tsf.txt
+
+
+no differences for file   1478307069027testCreateAccnt_newUserTransactionRejected_tsf.txt
+
+
+no differences for file   testCreateAccnt_notLoggedIn_etsf.txt
+
+
+no differences for file   testCreateAccnt_accntNumberAlreadyExists_etsf.txt
+
+
+no differences for file   testCreateAccnt_happyPath_etsf.txt
+
+
+no differences for file   testCreateAccnt_invalidAccntName_etsf.txt
+
+
+no differences for file   testCreateAccnt_newUserTransactionRejected_etsf.txt
+
+
+no differences for file   testCreateAccnt_notLoggedIn_etsf.txt
+
+
+no differences for file   testCreateAccnt_accntNumberAlreadyExists_etsf.txt
+
+
+no differences for file   testCreateAccnt_happyPath_etsf.txt
+
+
+no differences for file   testCreateAccnt_invalidAccntName_etsf.txt
+
+
+no differences for file   testCreateAccnt_newUserTransactionRejected_etsf.txt
+
+
+no differences for file   testCreateAccnt_notLoggedIn_etsf.txt
+
+
+no differences for file   testCreateAccnt_accntNumberAlreadyExists_etsf.txt
+
+
+no differences for file   testCreateAccnt_happyPath_etsf.txt
+
+
+no differences for file   testCreateAccnt_invalidAccntName_etsf.txt
+
+
+no differences for file   testCreateAccnt_newUserTransactionRejected_etsf.txt
+
+
+no differences for file   testCreateAccnt_notLoggedIn_etsf.txt
+
+
+no differences for file   testCreateAccnt_accntNumberAlreadyExists_etsf.txt
+
+
+no differences for file   testCreateAccnt_happyPath_etsf.txt
+
+
+Diff file for file testCreateAccnt_invalidAccntName_etsf.txt: 
+ 0a1
+> CR***12345678000SPACESAREOMITTED
+
+
+no differences for file   testCreateAccnt_newUserTransactionRejected_etsf.txt
+
+
+Diff file for file testCreateAccnt_notLoggedIn_etsf.txt: 
+ 0a1
+> CR***10000222000FOOBAR
+
+
+no differences for file   testCreateAccnt_accntNumberAlreadyExists_etsf.txt
+
+
+no differences for file   testCreateAccnt_happyPath_etsf.txt
+
+
+Diff file for file testCreateAccnt_invalidAccntName_etsf.txt: 
+ 0a1
+> CR***12345678000SPACESAREOMITTED
+
+
+no differences for file   testCreateAccnt_newUserTransactionRejected_etsf.txt
+
+
+Diff file for file testCreateAccnt_notLoggedIn_etsf.txt: 
+ 0a1
+> CR***10000222000FOOBAR
+
+
+no differences for file   testCreateAccnt_accntNumberAlreadyExists_etsf.txt
+
+
+no differences for file testCreateAccnt_accntNumberAlreadyExists_etermout.txt
+
+
+no differences for file   testCreateAccnt_happyPath_etsf.txt
+
+
+no differences for file testCreateAccnt_happyPath_etermout.txt
+
+
+Diff file for file testCreateAccnt_invalidAccntName_etsf.txt: 
+ --- testCreateAccnt_invalidAccntName_etsf.txt	2016-11-04 19:17:57.000000000 -0400
++++ /Users/stuartbourne/documents/school/cmpe327/Assn3/Assignment3/src/out//tsf/1478307548779testCreateAccnt_invalidAccntName_tsf.txt	2016-11-04 20:59:09.000000000 -0400
+@@ -1 +1,2 @@
++CR***12345678000SPACESAREOMITTED
+ ES
+\ No newline at end of file
+
+
+no differences for file   testCreateAccnt_newUserTransactionRejected_etsf.txt
+
+
+no differences for file testCreateAccnt_newUserTransactionRejected_etermout.txt
+
+
+Diff file for file testCreateAccnt_notLoggedIn_etsf.txt: 
+ --- testCreateAccnt_notLoggedIn_etsf.txt	2016-11-04 19:17:57.000000000 -0400
++++ /Users/stuartbourne/documents/school/cmpe327/Assn3/Assignment3/src/out//tsf/1478307550371testCreateAccnt_newUserTransactionRejected_tsf.txt	2016-11-04 20:59:10.000000000 -0400
+@@ -1 +1,2 @@
++CR***10000222000FOOBAR
+ ES
+\ No newline at end of file
+
+
+no differences for file   testCreateAccnt_accntNumberAlreadyExists_etsf.txt
+
+
+no differences for file testCreateAccnt_accntNumberAlreadyExists_etermout.txt
+
+
+no differences for file   testCreateAccnt_happyPath_etsf.txt
+
+
+no differences for file testCreateAccnt_happyPath_etermout.txt
+
+
+Diff file for file testCreateAccnt_invalidAccntName_etsf.txt: 
+ --- testCreateAccnt_invalidAccntName_etsf.txt	2016-11-04 19:17:57.000000000 -0400
++++ /Users/stuartbourne/documents/school/cmpe327/Assn3/Assignment3/src/out//tsf/1478307548779testCreateAccnt_invalidAccntName_tsf.txt	2016-11-04 20:59:09.000000000 -0400
+@@ -1 +1,2 @@
++CR***12345678000SPACESAREOMITTED
+ ES
+\ No newline at end of file
+
+
+no differences for file   testCreateAccnt_newUserTransactionRejected_etsf.txt
+
+
+no differences for file testCreateAccnt_newUserTransactionRejected_etermout.txt
+
+
+Diff file for file testCreateAccnt_notLoggedIn_etsf.txt: 
+ --- testCreateAccnt_notLoggedIn_etsf.txt	2016-11-04 19:17:57.000000000 -0400
++++ /Users/stuartbourne/documents/school/cmpe327/Assn3/Assignment3/src/out//tsf/1478307550371testCreateAccnt_newUserTransactionRejected_tsf.txt	2016-11-04 20:59:10.000000000 -0400
+@@ -1 +1,2 @@
++CR***10000222000FOOBAR
+ ES
+\ No newline at end of file
+
+
+no differences for file   testCreateAccnt_accntNumberAlreadyExists_etsf.txt
+
+
+no differences for file   testCreateAccnt_happyPath_etsf.txt
+
+
+Diff file for file testCreateAccnt_invalidAccntName_etsf.txt: 
+ 0a1
+> CR***12345678000SPACESAREOMITTED
+
+
+no differences for file   testCreateAccnt_newUserTransactionRejected_etsf.txt
+
+
+Diff file for file testCreateAccnt_notLoggedIn_etsf.txt: 
+ 0a1
+> CR***10000222000FOOBAR
+
+
+no differences for file   testCreateAccnt_accntNumberAlreadyExists_etsf.txt
+
+
+no differences for file testCreateAccnt_accntNumberAlreadyExists_etermout.txt
+
+
+no differences for file   testCreateAccnt_happyPath_etsf.txt
+
+
+no differences for file testCreateAccnt_happyPath_etermout.txt
+
+
+Diff file for file testCreateAccnt_invalidAccntName_etsf.txt: 
+ --- testCreateAccnt_invalidAccntName_etsf.txt	2016-11-04 19:17:57.000000000 -0400
++++ /Users/stuartbourne/documents/school/cmpe327/Assn3/Assignment3/src/out//tsf/1478307548779testCreateAccnt_invalidAccntName_tsf.txt	2016-11-04 20:59:09.000000000 -0400
+@@ -1 +1,2 @@
++CR***12345678000SPACESAREOMITTED
+ ES
+\ No newline at end of file
+
+
+no differences for file   testCreateAccnt_newUserTransactionRejected_etsf.txt
+
+
+no differences for file testCreateAccnt_newUserTransactionRejected_etermout.txt
+
+
+Diff file for file testCreateAccnt_notLoggedIn_etsf.txt: 
+ --- testCreateAccnt_notLoggedIn_etsf.txt	2016-11-04 19:17:57.000000000 -0400
++++ /Users/stuartbourne/documents/school/cmpe327/Assn3/Assignment3/src/out//tsf/1478307550371testCreateAccnt_newUserTransactionRejected_tsf.txt	2016-11-04 20:59:10.000000000 -0400
+@@ -1 +1,2 @@
++CR***10000222000FOOBAR
+ ES
+\ No newline at end of file
+
+
