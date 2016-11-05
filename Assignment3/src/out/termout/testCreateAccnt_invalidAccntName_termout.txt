@@ -11,7 +11,8 @@ Invalid account name
 Please enter the account's name.
 Invalid account name
 Please enter the account's name.
-Account has been successfully created. Please re-login to use this account.
+You have cancelled the account creation.
+Creating account unsuccessful.
 Please enter one of these commands: 
 'create', 'delete', 'deposit', 'transfer', 'withdraw', 'logout'
 Session ended. Goodbye! Type 'login' to start another session.

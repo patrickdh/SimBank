@@ -1,3 +1,6 @@
 Welcome to SimBank! Please enter 'login' to use SimBank.
 Please enter 'atm' or 'agent'.
-Valid accounts file must end in 00000000. Shutting down.
+Please enter one of these commands: 
+'create', 'delete', 'deposit', 'transfer', 'withdraw', 'logout'
+Session ended. Goodbye! Type 'login' to start another session.
+Please login before entering a command.

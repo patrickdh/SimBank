@@ -1,72 +1,306 @@
-Terminal diff file for file testCreateAccnt_invalidAccntName_etermout.txt: 
- --- testCreateAccnt_invalidAccntName_etermout.txt	2016-11-04 19:17:57.000000000 -0400
-+++ /Users/stuartbourne/documents/school/cmpe327/Assn3/Assignment3/src/out/termout/testCreateAccnt_invalidAccntName_termout.txt	2016-11-04 20:59:09.000000000 -0400
-@@ -11,8 +11,7 @@
- Please enter the account's name.
- Invalid account name
- Please enter the account's name.
--You have cancelled the account creation.
--Creating account unsuccessful.
-+Account has been successfully created. Please re-login to use this account.
- Please enter one of these commands:
- 'create', 'delete', 'deposit', 'transfer', 'withdraw', 'logout'
- Session ended. Goodbye! Type 'login' to start another session.
-\ No newline at end of file
+Running Test 1: testLoginAndLogout
+
+Transaction Summary File Test: Passed. 
+No differences for test testLoginAndLogout_etsf
 
 
-Terminal diff file for file testCreateAccnt_notLoggedIn_etermout.txt: 
- --- testCreateAccnt_notLoggedIn_etermout.txt	2016-11-04 19:17:57.000000000 -0400
-+++ /Users/stuartbourne/documents/school/cmpe327/Assn3/Assignment3/src/out/termout/testCreateAccnt_notLoggedIn_termout.txt	2016-11-04 20:59:11.000000000 -0400
-@@ -1,6 +1,3 @@
- Welcome to SimBank! Please enter 'login' to use SimBank.
- Please enter 'atm' or 'agent'.
--Please enter one of these commands:
--'create', 'delete', 'deposit', 'transfer', 'withdraw', 'logout'
--Session ended. Goodbye! Type 'login' to start another session.
--Please login before entering a command.
-\ No newline at end of file
-+Valid accounts file must end in 00000000. Shutting down.
-\ No newline at end of file
+Terminal Output Test: Passed. 
+No differences for test testLoginAndLogout_etermout
 
 
-Terminal diff file for file testDeleteAccnt_atmSession_etermout.txt: 
- --- testDeleteAccnt_atmSession_etermout.txt	2016-11-04 19:17:57.000000000 -0400
-+++ /Users/stuartbourne/documents/school/cmpe327/Assn3/Assignment3/src/out/termout/testDeleteAccnt_atmSession_termout.txt	2016-11-04 20:59:12.000000000 -0400
-@@ -1,7 +1,5 @@
- Welcome to SimBank! Please enter 'login' to use SimBank.
- Please enter 'atm' or 'agent'.
--Invalid session mode.
--Please enter 'atm' or 'agent'.
- Please enter one of these commands:
- 'deposit', 'transfer', 'withdraw', 'logout'
- Invalid command.
+Running Test 2: testLogin_alreadyLoggedin
+
+Transaction Summary File Test: Passed. 
+No differences for test testLogin_alreadyLoggedIn_etsf
 
 
-Terminal diff file for file testDeleteAccnt_happyPath_etermout.txt: 
- --- testDeleteAccnt_happyPath_etermout.txt	2016-11-04 19:17:57.000000000 -0400
-+++ /Users/stuartbourne/documents/school/cmpe327/Assn3/Assignment3/src/out/termout/testDeleteAccnt_happyPath_termout.txt	2016-11-04 20:59:13.000000000 -0400
-@@ -4,7 +4,6 @@
- 'create', 'delete', 'deposit', 'transfer', 'withdraw', 'logout'
- You have chosen to delete an account. (Type 'cancel' to cancel the transaction)
- Please enter the account number of the account you wish to delete.
--Invalid account name
- Please enter the account name of the account you wish to delete.
- Account has been successfully deleted.
- Please enter one of these commands:
+Terminal Output Test: Passed. 
+No differences for test testLogin_alreadyLoggedIn_etermout
 
 
-Terminal diff file for file testWithdraw_notLoggedIn_etermout.txt: 
- --- testWithdraw_notLoggedIn_etermout.txt	2016-11-04 19:17:58.000000000 -0400
-+++ /Users/stuartbourne/documents/school/cmpe327/Assn3/Assignment3/src/out/termout/testWithdraw_notLoggedIn_termout.txt	2016-11-04 20:59:29.000000000 -0400
-@@ -1,6 +1,3 @@
- Welcome to SimBank! Please enter 'login' to use SimBank.
- Please enter 'atm' or 'agent'.
--Please enter one of these commands: 
--'deposit', 'transfer', 'withdraw', 'logout'
--Session ended. Goodbye! Type 'login' to start another session.
--Please login before entering a command.
-\ No newline at end of file
-+Valid accounts file must end in 00000000. Shutting down.
-\ No newline at end of file
+Running Test 3: testPromptUserForAccountNumber_invalidInput
+
+Transaction Summary File Test: Passed. 
+No differences for test testPromptUserForAccountNumber_invalidInput_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testPromptUserForAccountNumber_invalidInput_etermout
+
+
+Running Test 4: testPromptUserForMoneyAmount_invalidInput
+
+Transaction Summary File Test: Passed. 
+No differences for test testPromptUserForMoneyAmount_invalidInput_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testPromptUserForMoneyAmount_invalidInput_etermout
+
+
+Running Test 5: testPromptUserForSessionType_invalidSessionType
+
+Transaction Summary File Test: Passed. 
+No differences for test testPromptUserForSessionType_invalidSessionType_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testPromptUserForSessionType_invalidSessionType_etermout
+
+
+Running Test 6: testReadValidAccountsFileSummary_invalidValidAccountsFileSummary
+
+Terminal Output Test: Passed. 
+No differences for test testReadValidAccountsFileSummary_invalidValidAccountsFileSummary_etermout
+
+
+Running Test 7: testCreateAccnt_accntNumberAlreadyExists
+
+Transaction Summary File Test: Passed. 
+No differences for test testCreateAccnt_accntNumberAlreadyExists_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testCreateAccnt_accntNumberAlreadyExists_etermout
+
+
+Running Test 8: testCreateAccnt_happyPath
+
+Transaction Summary File Test: Passed. 
+No differences for test testCreateAccnt_happyPath_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testCreateAccnt_happyPath_etermout
+
+
+Running Test 9: testCreateAccnt_invalidAccntName
+
+Transaction Summary File Test: Passed. 
+No differences for test testCreateAccnt_invalidAccntName_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testCreateAccnt_invalidAccntName_etermout
+
+
+Running Test 10: testCreateAccnt_newUserTransactionRejected
+
+Transaction Summary File Test: Passed. 
+No differences for test testCreateAccnt_newUserTransactionRejected_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testCreateAccnt_newUserTransactionRejected_etermout
+
+
+Running Test 11: testCreateAccnt_notLoggedIn
+
+Transaction Summary File Test: Passed. 
+No differences for test testCreateAccnt_notLoggedIn_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testCreateAccnt_notLoggedIn_etermout
+
+
+Running Test 12: testDeleteAccnt_accntDoesNotExist
+
+Transaction Summary File Test: Passed. 
+No differences for test testDeleteAccnt_accntDoesNotExist_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testDeleteAccnt_accntDoesNotExist_etermout
+
+
+Running Test 13: testDeleteAccnt_atmSession
+
+Transaction Summary File Test: Passed. 
+No differences for test testDeleteAccnt_atmSession_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testDeleteAccnt_atmSession_etermout
+
+
+Running Test 14: testDeleteAccnt_happyPath
+
+Transaction Summary File Test: Passed. 
+No differences for test testDeleteAccnt_happyPath_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testDeleteAccnt_happyPath_etermout
+
+
+Running Test 15: testDeleteAccnt_transactionOnDeletedAccntRejected
+
+Transaction Summary File Test: Passed. 
+No differences for test testDeleteAccnt_transactionOnDeletedAccntRejected_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testDeleteAccnt_transactionOnDeletedAccntRejected_etermout
+
+
+Running Test 16: testDeposit_agentMode_happyPath
+
+Transaction Summary File Test: Passed. 
+No differences for test testDeposit_agentMode_happyPath_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testDeposit_agentMode_happyPath_etermout
+
+
+Running Test 17: testDeposit_agentMode_invalidMoneyAmount
+
+Transaction Summary File Test: Passed. 
+No differences for test testDeposit_agentMode_invalidMoneyAmount_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testDeposit_agentMode_invalidMoneyAmount_etermout
+
+
+Running Test 18: testDeposit_atmMode_happyPath
+
+Transaction Summary File Test: Passed. 
+No differences for test testDeposit_atmMode_happyPath_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testDeposit_atmMode_happyPath_etermout
+
+
+Running Test 19: testDeposit_atmMode_invalidMoneyAmount
+
+Transaction Summary File Test: Passed. 
+No differences for test testDeposit_atmMode_invalidMoneyAmount_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testDeposit_atmMode_invalidMoneyAmount_etermout
+
+
+Running Test 20: testDeposit_notLoggedIn
+
+Transaction Summary File Test: Passed. 
+No differences for test testDeposit_notLoggedIn_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testDeposit_notLoggedIn_etermout
+
+
+Running Test 21: testTransfer_agentMode_happyPath
+
+Transaction Summary File Test: Passed. 
+No differences for test testTransfer_agentMode_happyPath_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testTransfer_agentMode_happyPath_etermout
+
+
+Running Test 22: testTransfer_agentMode_invalidMoneyAmount
+
+Transaction Summary File Test: Passed. 
+No differences for test testTransfer_agentMode_invalidMoneyAmount_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testTransfer_agentMode_invalidMoneyAmount_etermout
+
+
+Running Test 23: testTransfer_atmMode_happyPath
+
+Transaction Summary File Test: Passed. 
+No differences for test testTransfer_atmMode_happyPath_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testTransfer_atmMode_happyPath_etermout
+
+
+Running Test 24: testTransfer_atmMode_invalidMoneyAmount
+
+Transaction Summary File Test: Passed. 
+No differences for test testTransfer_atmMode_invalidMoneyAmount_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testTransfer_atmMode_invalidMoneyAmount_etermout
+
+
+Running Test 25: testTransfer_notLoggedIn
+
+Transaction Summary File Test: Passed. 
+No differences for test testTransfer_notLoggedIn_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testTransfer_notLoggedIn_etermout
+
+
+Running Test 26: testWithdraw_agentMode_happyPath
+
+Transaction Summary File Test: Passed. 
+No differences for test testWithdraw_agentMode_happyPath_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testWithdraw_agentMode_happyPath_etermout
+
+
+Running Test 27: testWithdraw_agentMode_invalidMoneyAmount
+
+Transaction Summary File Test: Passed. 
+No differences for test testWithdraw_agentMode_invalidMoneyAmount_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testWithdraw_agentMode_invalidMoneyAmount_etermout
+
+
+Running Test 28: testWithdraw_atmMode_happyPath
+
+Transaction Summary File Test: Passed. 
+No differences for test testWithdraw_atmMode_happyPath_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testWithdraw_atmMode_happyPath_etermout
+
+
+Running Test 29: testWithdraw_atmMode_invalidMoneyAmount
+
+Transaction Summary File Test: Passed. 
+No differences for test testWithdraw_atmMode_invalidMoneyAmount_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testWithdraw_atmMode_invalidMoneyAmount_etermout
+
+
+Running Test 30: testWithdraw_notLoggedIn
+
+Transaction Summary File Test: Passed. 
+No differences for test testWithdraw_notLoggedIn_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testWithdraw_notLoggedIn_etermout
+
+
+Running Test 31: testLogout_notLoggedin
+
+Transaction Summary File Test: Passed. 
+No differences for test testLogout_notLoggedin_etsf
+
+
+Terminal Output Test: Passed. 
+No differences for test testLogout_notLoggedin_etermout
 
 

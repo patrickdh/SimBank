@@ -7,13 +7,14 @@ testingPath="/Users/stuartbourne/documents/school/cmpe327/Assn3/Assignment3/test
 
 rm logFile.log
 touch logFile.log
-
+COUNTER=0
 #loop through directories to access files
 for parent in */ ; do
     cd $parent
     for child in */ ; do
         cd $child
-        
+        COUNTER=$((COUNTER+1)) 
+        echo "Running Test $COUNTER: ${PWD##*/}\n" >> "../../logFile.log"
         for file in *_etsf.txt ; do
             TSFFILENAME=${file%?????????}
             SECONDDIR=$(pwd)
@@ -31,9 +32,10 @@ for parent in */ ; do
             
             if ["$DIFF" = ""]
             then
-                echo "no differences for file   $file\n\n" >> "../logFile.log"
+                echo "Transaction Summary File Test: Passed. \nNo differences for test ${file%????}\n\n" >> "../../logFile.log"
             else
-                echo "Diff file for file $file: \n $DIFF\n\n" >> "../logFile.log"
+            
+                echo "Transaction Summary File Test: Failed. \nDiff file for test ${file%????}: \n $DIFF\n\n" >> "../../logFile.log"
             fi
         done
 
@@ -44,9 +46,9 @@ for parent in */ ; do
 
             if ["$DIFF" = ""]
             then
-                echo "no differences for file $file\n\n" >> "../logFile.log"
+                echo "Terminal Output Test: Passed. \nNo differences for test ${file%????}\n\n" >> "../../logFile.log"
             else
-                echo "Terminal diff file for file $file: \n $DIFF\n\n" >> "../../logFile.log"
+                echo "Terminal Output Test: Failed. \nTerminal diff file for test ${file%????}: \n $DIFF\n\n" >> "../../logFile.log"
             fi
         done
         
