@@ -8,6 +8,9 @@ testingPath="/Users/stuartbourne/documents/school/cmpe327/Assn3/Assignment3/test
 rm logFile.log
 touch logFile.log
 COUNTER=0
+COUNTER2=0
+DIFF1="FOOBAR"
+DIFF2="FOOBAR"
 #loop through directories to access files
 for parent in */ ; do
     cd $parent
@@ -28,9 +31,9 @@ for parent in */ ; do
             done
             
             cd $SECONDDIR 
-            DIFF=$(diff -u --ignore-all-space $file $TSFFILE)
+            DIFF1=$(diff -u --ignore-all-space $file $TSFFILE)
             
-            if ["$DIFF" = ""]
+            if ["$DIFF1" = ""]
             then
                 echo "Transaction Summary File Test: Passed. \nNo differences for test ${file%????}\n\n" >> "../../logFile.log"
             else
@@ -42,18 +45,31 @@ for parent in */ ; do
         for file in *_etermout.txt ; do
             TERMFILENAME=${file%?????????????}
             TERMFILE="${exePath}termout/${TERMFILENAME}_termout.txt"
-            DIFF=$(diff -u --ignore-all-space $file $TERMFILE)
+            DIFF2=$(diff -u --ignore-all-space $file $TERMFILE)
 
-            if ["$DIFF" = ""]
+            if ["$DIFF2" = ""]
             then
                 echo "Terminal Output Test: Passed. \nNo differences for test ${file%????}\n\n" >> "../../logFile.log"
             else
                 echo "Terminal Output Test: Failed. \nTerminal diff file for test ${file%????}: \n $DIFF\n\n" >> "../../logFile.log"
             fi
         done
-        
+        if [ $DIFF1 = $DIFF2 ]
+        then
+            COUNTER2=$((COUNTER2+1)) 
+        fi
         cd "${testingPath}/$parent"
         echo ""
     done
     cd ..
 done
+
+cd $testingPath
+echo "----------------------------------" >> "logfile.log"
+if [ $COUNTER = $COUNTER2 ] 
+then
+    echo "TEST SUITE PASSED" >> "logFile.log"
+else
+    echo "TEST SUITE FAILED" >> "logFile.log"
+fi
+echo "$COUNTER2 of $COUNTER Tests Passed" >> "logFile.log"
