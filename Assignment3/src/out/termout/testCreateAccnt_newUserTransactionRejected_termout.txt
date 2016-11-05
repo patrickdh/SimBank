@@ -4,19 +4,16 @@ Please enter one of these commands:
 'create', 'delete', 'deposit', 'transfer', 'withdraw', 'logout'
 You have chosen to create an account. (Type 'cancel' to cancel the transaction)
 Please enter the account number of the account you wish to create.
-Invalid account name
 Please enter the account's name.
-Account has been successfully created.
+Account has been successfully created. Please re-login to use this account.
 Please enter one of these commands: 
 'create', 'delete', 'deposit', 'transfer', 'withdraw', 'logout'
-You have chosen to transfer. (Type 'cancel' to cancel the transaction)
-Please enter the account number of the account you wish to transfer FROM.
-Please enter the account number of the account you wish to transfer TO.
+You have chosen to withdraw. (Type 'cancel' to cancel the transaction)
+Please enter the account number of the account you wish to withdraw from.
 This account does not exist
-Please enter the account number of the account you wish to transfer TO.
-This account does not exist
-Please enter the account number of the account you wish to transfer TO.
-You have entered an invalid account number. Valid account numbers are between 1000000 and 9999999.
-Please enter the account number of the account you wish to transfer TO.
-You have entered an invalid account number. Valid account numbers are between 1000000 and 9999999.
-Please enter the account number of the account you wish to transfer TO.
+Please enter the account number of the account you wish to withdraw from.
+You have cancelled the withdrawal.
+Withdrawal unsuccessful.
+Please enter one of these commands: 
+'create', 'delete', 'deposit', 'transfer', 'withdraw', 'logout'
+Session ended. Goodbye! Type 'login' to start another session.

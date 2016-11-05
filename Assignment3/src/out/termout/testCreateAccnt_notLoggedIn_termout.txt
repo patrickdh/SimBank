@@ -1,3 +1,3 @@
 Welcome to SimBank! Please enter 'login' to use SimBank.
 Please enter 'atm' or 'agent'.
-Please login before entering a command.
+Valid accounts file must end in 00000000. Shutting down.

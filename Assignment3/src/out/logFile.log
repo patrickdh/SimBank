@@ -1,0 +1,1116 @@
+no differences for file   1478305092678testPromptUserForAccountNumber_invaldiInput_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testPromptUserForMoneyAmount_invaliInput_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305094279testPromptUserForSessionType_invalidSessionType_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305112195testTransfer_atmMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305095894testCreateAccnt_accntNumberAlreadyExists_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305096709testCreateAccnt_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305097523testCreateAccnt_invalidAccntName_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305099089testCreateAccnt_newUserTransactionRejected_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testCreateAccnt_notLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeleteAccnt_accntDoesNotExist_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305101583testDeleteAccnt_atmSession_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305102417testDeleteAccnt_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305103234testDeleteAccnt_transactionOnDeletedAccntRejected_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305104044testDeposit_agentMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305104874testDeposit_agentMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305105717testDeposit_atmMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305106515testDeposit_atmMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305107441testDeposit_notLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305108513testLoginAndLogout_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305109428testLogin_alreadyLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305110387testLogout_notLoggedin_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305111220testTransfer_agentMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305111807testTransfer_agentMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305112195testTransfer_atmMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478304949363testTransfer_atmMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478304950169testTransfer_notLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478304951033testWithdraw_agentMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478304951852testWithdraw_agentMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478304952631testWithdraw_atmMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478304953471testWithdraw_atmMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testWithdraw_notLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305092678testPromptUserForAccountNumber_invaldiInput_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testPromptUserForMoneyAmount_invaliInput_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305094279testPromptUserForSessionType_invalidSessionType_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305112195testTransfer_atmMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305095894testCreateAccnt_accntNumberAlreadyExists_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305096709testCreateAccnt_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305097523testCreateAccnt_invalidAccntName_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305099089testCreateAccnt_newUserTransactionRejected_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testCreateAccnt_notLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeleteAccnt_accntDoesNotExist_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305101583testDeleteAccnt_atmSession_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305102417testDeleteAccnt_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305103234testDeleteAccnt_transactionOnDeletedAccntRejected_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305104044testDeposit_agentMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305104874testDeposit_agentMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305105717testDeposit_atmMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305106515testDeposit_atmMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305107441testDeposit_notLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305108513testLoginAndLogout_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305109428testLogin_alreadyLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305110387testLogout_notLoggedin_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305111220testTransfer_agentMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305111807testTransfer_agentMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478305112195testTransfer_atmMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478304949363testTransfer_atmMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478304950169testTransfer_notLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478304951033testWithdraw_agentMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478304951852testWithdraw_agentMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478304952631testWithdraw_atmMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   1478304953471testWithdraw_atmMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testWithdraw_notLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testPromptUserForAccountNumber_invaldiInput_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testPromptUserForMoneyAmount_invaliInput_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testPromptUserForSessionType_invalidSessionType_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   **_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testCreateAccnt_accntNumberAlreadyExists_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testCreateAccnt_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testCreateAccnt_invalidAccntName_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testCreateAccnt_newUserTransactionRejected_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testCreateAccnt_notLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeleteAccnt_accntDoesNotExist_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeleteAccnt_atmSession_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeleteAccnt_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeleteAccnt_transactionOnDeletedAccntRejected_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeposit_agentMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeposit_agentMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeposit_atmMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeposit_atmMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeposit_notLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testLoginAndLogout_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testLogin_alreadyLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testLogout_notLoggedin_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testTransfer_agentMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testTransfer_agentMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testTransfer_atmMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testTransfer_atmMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testTransfer_notLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testWithdraw_agentMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testWithdraw_agentMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testWithdraw_atmMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testWithdraw_atmMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testWithdraw_notLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testPromptUserForAccountNumber_invaldiInput_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testPromptUserForMoneyAmount_invaliInput_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testPromptUserForSessionType_invalidSessionType_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   **_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testCreateAccnt_accntNumberAlreadyExists_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testCreateAccnt_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testCreateAccnt_invalidAccntName_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testCreateAccnt_newUserTransactionRejected_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testCreateAccnt_notLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeleteAccnt_accntDoesNotExist_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeleteAccnt_atmSession_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeleteAccnt_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeleteAccnt_transactionOnDeletedAccntRejected_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeposit_agentMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeposit_agentMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeposit_atmMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeposit_atmMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeposit_notLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testLoginAndLogout_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testLogin_alreadyLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testLogout_notLoggedin_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testTransfer_agentMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testTransfer_agentMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testTransfer_atmMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testTransfer_atmMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testTransfer_notLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testWithdraw_agentMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testWithdraw_agentMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testWithdraw_atmMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testWithdraw_atmMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testWithdraw_notLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testPromptUserForAccountNumber_invaldiInput_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testPromptUserForMoneyAmount_invaliInput_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testPromptUserForSessionType_invalidSessionType_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   **_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testCreateAccnt_accntNumberAlreadyExists_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testCreateAccnt_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testCreateAccnt_invalidAccntName_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testCreateAccnt_newUserTransactionRejected_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testCreateAccnt_notLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeleteAccnt_accntDoesNotExist_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeleteAccnt_atmSession_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeleteAccnt_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeleteAccnt_transactionOnDeletedAccntRejected_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeposit_agentMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeposit_agentMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeposit_atmMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeposit_atmMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeposit_notLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testLoginAndLogout_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testLogin_alreadyLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testLogout_notLoggedin_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testTransfer_agentMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testTransfer_agentMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testTransfer_atmMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testTransfer_atmMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testTransfer_notLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testWithdraw_agentMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testWithdraw_agentMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testWithdraw_atmMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testWithdraw_atmMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testWithdraw_notLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testPromptUserForAccountNumber_invaldiInput_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testPromptUserForMoneyAmount_invaliInput_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testPromptUserForSessionType_invalidSessionType_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   **_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testCreateAccnt_accntNumberAlreadyExists_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testCreateAccnt_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testCreateAccnt_invalidAccntName_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testCreateAccnt_newUserTransactionRejected_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testCreateAccnt_notLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeleteAccnt_accntDoesNotExist_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeleteAccnt_atmSession_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeleteAccnt_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeleteAccnt_transactionOnDeletedAccntRejected_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeposit_agentMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeposit_agentMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeposit_atmMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeposit_atmMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testDeposit_notLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testLoginAndLogout_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testLogin_alreadyLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testLogout_notLoggedin_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testTransfer_agentMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testTransfer_agentMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testTransfer_atmMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testTransfer_atmMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testTransfer_notLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testWithdraw_agentMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testWithdraw_agentMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testWithdraw_atmMode_happyPath_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testWithdraw_atmMode_invalidMoneyAmount_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+
+no differences for file   *testWithdraw_notLoggedIn_tsf.txt
+
+
+no differences for file *_etermout.txt
+
+

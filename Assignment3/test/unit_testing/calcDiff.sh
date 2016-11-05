@@ -16,7 +16,13 @@ for parent in */ ; do
         
         for file in *_etsf.txt ; do
             TSFFILENAME=${file%?????????}
-            TSFFILE="${exePath}tsf/${TSFFILENAME}_tsf.txt"
+            cd ${exePath}tsf 
+            
+            for file in *"${TSFFILENAME}_tsf.txt"
+            do
+                TSFFILE=$file
+            done
+            
             DIFF=$(diff $file $TSFFILE)
     
             if ["$DIFF" = ""]

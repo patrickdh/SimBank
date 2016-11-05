@@ -2,8 +2,19 @@
 #bash script for 327 Assn3
 
 LOG_FILE="myLogFile.log"
-exePath="/Users/stuartbourne/documents/school/cmpe327/Assn3/Assignment3/src"
+exePath="/Users/stuartbourne/documents/school/cmpe327/Assn3/Assignment3/src/"
 testingPath="/Users/stuartbourne/documents/school/cmpe327/Assn3/Assignment3/test/unit_testing/"
+
+#remove all previous tsf files
+
+CURRENTDIR=$(pwd)
+cd ${exePath}out/tsf
+for file in *.txt
+do
+    rm $file
+done
+cd $CURRENTDIR
+
 
 #loop through directories to access files
 for parent in */ ; do
@@ -23,7 +34,7 @@ for parent in */ ; do
         
         #cd to the executable directory, run the file then pipe the output to an output directory
         
-        tsf="tsf.txt"
+        tsf="$output.txt"
         cd ${exePath}
         output=${output%???????}
         
@@ -32,9 +43,6 @@ for parent in */ ; do
         javac SimBank_UI.java
         java SimBank_UI $vaf $tsf $input > "out/termout/${output}_termout.txt"
         
-        #get the copy of the tsf and save it
-        cd "$exePath/out/tsf"
-        cp $tsf "$output.txt" 
         cd "${testingPath}/$parent"
         echo ""
     done

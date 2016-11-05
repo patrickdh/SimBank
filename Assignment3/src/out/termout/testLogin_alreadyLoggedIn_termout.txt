@@ -1,3 +1,8 @@
 Welcome to SimBank! Please enter 'login' to use SimBank.
 Please enter 'atm' or 'agent'.
-Invalid account number in Valid Accounts file. Shutting down.
+Please enter one of these commands: 
+'deposit', 'transfer', 'withdraw', 'logout'
+Invalid command.
+Please enter one of these commands: 
+'deposit', 'transfer', 'withdraw', 'logout'
+Session ended. Goodbye! Type 'login' to start another session.

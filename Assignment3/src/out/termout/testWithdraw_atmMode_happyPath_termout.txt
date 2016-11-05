@@ -4,7 +4,7 @@ Please enter one of these commands:
 'deposit', 'transfer', 'withdraw', 'logout'
 You have chosen to withdraw. (Type 'cancel' to cancel the transaction)
 Please enter the account number of the account you wish to withdraw from.
-Please enter the amount of money you would like to withdraw
+Please enter the amount of money you would like to withdraw (in number of cents)
 Withdrawal successful.
 Please enter one of these commands: 
 'deposit', 'transfer', 'withdraw', 'logout'
