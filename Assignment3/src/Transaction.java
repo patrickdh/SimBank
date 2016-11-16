@@ -394,7 +394,7 @@ public class Transaction {
             accountNameCode = accountName;
         }
 
-        return accountCode + toAccountCode + fromAccountCode + accountMoneyCode + accountNameCode;
+        return accountCode + " " + toAccountCode + " " + fromAccountCode + " " + accountMoneyCode + " " + accountNameCode;
     }
 
     /**
