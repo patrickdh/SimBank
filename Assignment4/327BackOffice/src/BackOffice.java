@@ -51,8 +51,8 @@ public class BackOffice
 
                 String[] parsedInput = line.split(" ");
 
-                if (line.length > 48 && parsedInput.length != 3 && validateAccountNo(parsedInput[0])
-                        && validateAccountName(parsedInput[1]) && validateAccountBalance(parsedInput[2])) {
+                if (line.length() < 48 && parsedInput.length == 3 && validateAccountNo(parsedInput[0])
+                        && validateAccountBalance(parsedInput[1]) && validateAccountName(parsedInput[2])) {
                     int accountNum = Integer.parseInt(parsedInput[0]);
                     int accountBal = Integer.parseInt(parsedInput[1]);
                     String accountName = parsedInput[2];
@@ -84,8 +84,8 @@ public class BackOffice
 
             while ((line = in.readLine()) != null){
                 String[] parsedInput = line.split(" ");
-                if (parsedInput.size != 5) {
-                    System.out.println("Invalid transaction entry: %s", line);
+                if (parsedInput.length != 5 && !line.equals("ES")) {
+                    System.out.println(String.format("Invalid transaction entry: %s", line));
                 } else {
                     if (parsedInput[0].equals("DE")){
                         // Deposit
@@ -110,7 +110,7 @@ public class BackOffice
                         String senderAccountNo = parsedInput[2];
                         String receieverAccountNo = parsedInput[1];
                         String transferAmount = parsedInput[3];
-                        if (validateAccountNo(accountNo) && validateTransactionMoneyAmount(withdrawalAmount)) {
+                        if (validateAccountNo(senderAccountNo) && validateAccountNo(receieverAccountNo) && validateTransactionMoneyAmount(transferAmount)) {
                             processTransfer(Integer.parseInt(senderAccountNo), Integer.parseInt(receieverAccountNo),Integer.parseInt(transferAmount));
                         } else {
                             System.out.println(String.format("Invalid transaction entry: %s", line));
@@ -119,7 +119,7 @@ public class BackOffice
                         // Create
                         String accountNo = parsedInput[1];
                         String accountName = parsedInput[4];
-                        if (validateAccountNo(accountNo) && validateTransactionMoneyAmount(withdrawalAmount)) {
+                        if (validateAccountNo(accountNo) && validateAccountName(accountName)) {
                             processCreate(Integer.parseInt(accountNo), accountName);
                         } else {
                             System.out.println(String.format("Invalid transaction entry: %s", line));
@@ -128,20 +128,20 @@ public class BackOffice
                         // Delete
                         String accountNo = parsedInput[1];
                         String accountName = parsedInput[4];
-                        if (validateAccountNo(accountNo) && validateTransactionMoneyAmount(withdrawalAmount)) {
+                        if (validateAccountNo(accountNo) && validateAccountName(accountName)) {
                             processDelete(Integer.parseInt(accountNo), accountName);
                         } else {
                             System.out.println(String.format("Invalid transaction entry: %s", line));
                         }
-                    } else if (parsedInput[0].equals("ES")) {
+                    } else if (line.equals("ES")) {
                         // End of session, proceed to next transaction
                     } else {
-                        System.out.println("Invalid transaction entry: %s", line);
+                        System.out.println(String.format("Invalid transaction entry: %s", line));
                     }
                 }
             }
         } catch (Exception e){
-            throw IllegalArgumentException("Failed to read merged transaction summary file. Shutting down...");
+            throw new IllegalArgumentException("Failed to read merged transaction summary file. Shutting down...");
         }
     }
 
@@ -282,13 +282,13 @@ public class BackOffice
     private static boolean validateAccountNo(String accountNo) {
         int accountNumber;
 
-        if (accountNoString.length() != 8) {
+        if (accountNo.length() != 8) {
             System.out.println(String.format("Invalid account number: %s.", accountNo));
             return false;
         }
 
         try {
-            accountNumber = Integer.parseInt(accountNoString);
+            accountNumber = Integer.parseInt(accountNo);
         } catch (Exception e) {
             System.out.println(String.format("Invalid account number: %s.", accountNo));
             return false;
@@ -332,14 +332,14 @@ public class BackOffice
         int accountBal;
 
         try {
-            accountBal = Integer.parseInt(accountBal);
+            accountBal = Integer.parseInt(accountBalance);
         } catch (Exception e) {
-            System.out.println(String.format("Invalid account balance: %s.", accountBal));
+            System.out.println(String.format("Invalid account balance: %s.", accountBalance));
             return false;
         }
 
         if (accountBal < 0) {
-            System.out.println(String.format("Invalid account balance: %s.", accountBal));
+            System.out.println(String.format("Invalid account balance: %s.", accountBalance));
             return false;
         }
 

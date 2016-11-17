@@ -15,8 +15,8 @@ public class AccountInfo {
      * @param accountName Name of the account holder
      */
     public AccountInfo(int accountBalance, String accountName){
-        setAccountBalance(accountBalance);
-        setAccountName(accountName);
+        this.accountBalance = accountBalance;
+        this.accountName = accountName;
     }
 
     /**
