@@ -211,7 +211,7 @@ public class BackOffice
      */
     private static void processWithdraw(int accountNo, int withdrawAmount){
         AccountInfo accountInfo = accountsMap.get(accountNo);
-        if (accountInfo.isTransactionAllowed(withdrawAmount)) {
+        if (accountInfo.isTransactionAllowed(-withdrawAmount)) {
             accountInfo.adjustBalance(-withdrawAmount);
         } else {
             System.out.println(String.format("Withdrawal failed: %d has insufficient funds.", accountNo));

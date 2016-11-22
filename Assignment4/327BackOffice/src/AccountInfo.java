@@ -60,7 +60,7 @@ public class AccountInfo {
      * @return true if the account balance will be greater than 0, false otherwise
      */
     public boolean isTransactionAllowed(int adjustAmount) {
-        return accountBalance + adjustAmount < 0;
+        return accountBalance + adjustAmount >= 0;
     }
 
 }
