@@ -1,7 +1,6 @@
 login
-agent
-Transfer
-12345678
+atm
+withdraw
 10091057
 5000
 logout
