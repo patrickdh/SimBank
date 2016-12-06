@@ -1,0 +1,7 @@
+login
+agent
+create
+10102938
+Patty
+logout
+exit
