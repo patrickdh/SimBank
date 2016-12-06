@@ -1,0 +1,7 @@
+login
+atm
+deposit
+10102938
+500000
+logout
+exit

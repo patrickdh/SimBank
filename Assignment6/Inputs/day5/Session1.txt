@@ -1,0 +1,8 @@
+login
+agent
+Transfer
+10091057
+10102938
+500
+logout
+exit
