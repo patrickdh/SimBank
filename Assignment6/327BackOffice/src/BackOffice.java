@@ -1,8 +1,5 @@
-import javafx.util.Pair;
-
 import java.io.*;
 import java.util.*;
-import java.util.logging.ErrorManager;
 
 /**
  * The BackOffice is the main class for this program. Given a Master Accounts File and Merged Transaction Summary File,
@@ -149,7 +146,8 @@ public class BackOffice
      * Creates a new Valid Accounts File based on the accounts in the accountsMap.
      */
     private static void createValidAccountsFile(){
-        File vaf = new File("./validAccountsFile.txt");
+        File vaf = new File(".." + File.separator + ".." + File.separator + "shared" + File.separator
+                + "validAccountsFile.txt");
         BufferedWriter writer = null;
         try {
             FileWriter fw = new FileWriter(vaf.getAbsoluteFile());
@@ -173,7 +171,7 @@ public class BackOffice
      * Creates a new Master Accounts File based on the accounts in the accountsMap.
      */
     private static void createMasterAccountsFile(){
-        File vaf = new File("./accountsMap.txt");
+        File vaf = new File("./master-accounts-file.txt");
         BufferedWriter writer = null;
         try {
             FileWriter fw = new FileWriter(vaf.getAbsoluteFile());

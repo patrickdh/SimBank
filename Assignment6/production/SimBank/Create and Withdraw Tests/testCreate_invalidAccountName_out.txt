@@ -1,0 +1,2 @@
+Invalid account name
+Invalid transaction entry: CR 10101010 000 000 me
