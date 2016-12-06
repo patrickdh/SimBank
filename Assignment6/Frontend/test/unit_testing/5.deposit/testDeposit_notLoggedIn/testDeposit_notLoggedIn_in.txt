@@ -1,0 +1,5 @@
+login
+atm
+logout
+deposit
+exit

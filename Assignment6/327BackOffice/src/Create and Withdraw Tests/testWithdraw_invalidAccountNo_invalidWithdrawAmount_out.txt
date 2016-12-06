@@ -1,0 +1,2 @@
+Invalid account number: 00000000.
+Invalid transaction entry: WD 00000000 20000000 -1 MattSims 

@@ -1,0 +1,2 @@
+loginagentcreate12345678foobarlogout
+exit

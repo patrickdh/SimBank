@@ -1,0 +1,7 @@
+login
+badInput
+23098420
+
+atm
+logout
+exit
