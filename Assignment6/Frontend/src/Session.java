@@ -191,7 +191,8 @@ public class Session {
      */
     public boolean logout(String filename) {
         try {
-            File dir = new File('.' + File.separator  + "out" + File.separator + "tsf" + File.separator);
+            File dir = new File(".." + File.separator + ".." + File.separator + "shared" + File.separator
+                    + "daily-transaction-summary-files" + File.separator);
             dir.mkdirs();
             BufferedWriter writer = new BufferedWriter(new FileWriter(new File(dir, Long.toString(timestamp.getTime()) + filename)));
             for (Transaction transaction : transactions) {

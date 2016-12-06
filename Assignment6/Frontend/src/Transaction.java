@@ -186,7 +186,7 @@ public class Transaction {
             }
         }
 
-        return new Transaction(TransactionType.DEPOSIT, accountNo, null, null, depositAmount);
+        return new Transaction(TransactionType.DEPOSIT, null, accountNo, null, depositAmount);
     }
 
     /**
@@ -345,7 +345,7 @@ public class Transaction {
             }
         }
 
-        return new Transaction(TransactionType.WITHDRAW, accountNo, null, null, withdrawalAmount);
+        return new Transaction(TransactionType.WITHDRAW, null, accountNo, null, withdrawalAmount);
     }
 
     /**

@@ -1,0 +1,2 @@
+Invalid account number: 1010010.
+Invalid transaction entry: CR 1010010 000 000 test

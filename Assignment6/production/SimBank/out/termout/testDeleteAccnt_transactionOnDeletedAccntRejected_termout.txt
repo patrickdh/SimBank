@@ -1,0 +1,19 @@
+Welcome to SimBank! Please enter 'login' to use SimBank.
+Please enter 'atm' or 'agent'.
+Please enter one of these commands: 
+'create', 'delete', 'deposit', 'transfer', 'withdraw', 'logout'
+You have chosen to delete an account. (Type 'cancel' to cancel the transaction)
+Please enter the account number of the account you wish to delete.
+Please enter the account name of the account you wish to delete.
+Account has been successfully deleted.
+Please enter one of these commands: 
+'create', 'delete', 'deposit', 'transfer', 'withdraw', 'logout'
+You have chosen to withdraw. (Type 'cancel' to cancel the transaction)
+Please enter the account number of the account you wish to withdraw from.
+This account does not exist
+Please enter the account number of the account you wish to withdraw from.
+You have cancelled the withdrawal.
+Withdrawal unsuccessful.
+Please enter one of these commands: 
+'create', 'delete', 'deposit', 'transfer', 'withdraw', 'logout'
+Session ended. Goodbye! Type 'login' to start another session.
